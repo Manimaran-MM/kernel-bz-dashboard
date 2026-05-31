@@ -180,5 +180,21 @@
     "error": "Command timed out after 1 hour",
     "terminal_log": "data/terminal_output_RHEL-142094.log",
     "duration_seconds": 3600
+  },
+  "RHEL-142092:pre": {
+    "jira_id": "RHEL-142092",
+    "command": "python3 run.py --instances-name RHEL-142092 --log-dir /app/data/logs/kernel-logs/RHEL-142092 --log-level DEBUG --cloud openstack --rhbuild 5.3 --platform rhel-8 --global-conf conf/squid/cephfs/kernel_verification.yaml --suite suites/tentacle/cephfs/kernel_pre_verification.yaml --osp-cred osp/osp-cred-ci-2.yaml --inventory conf/inventory/rhel-8.8-server-x86_64.yaml --custom-config pre=https://artifacts.internal.cki-project.org/arr-cki-prod-internal-artifacts/internal-artifacts/2521991762/publish_x86_64/14348806467/artifacts/repo/4.18.0-477.141.1.el8_8.9749_2521991333.x86_64/ --build stable --skip-sos-report --store",
+    "rhosd_kernel": "4.18.0-477.136.1.el8_8",
+    "inventory": "conf/inventory/rhel-8.8-server-x86_64.yaml",
+    "platform": "rhel-8",
+    "rhbuild": "5.3",
+    "verification_type": "pre",
+    "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-142092",
+    "start_time": "2026-05-31T18:08:59.899815",
+    "status": "failed",
+    "end_time": "2026-05-31T18:09:02.820653",
+    "return_code": 1,
+    "terminal_log": "data/terminal_output_RHEL-142092.log",
+    "duration_seconds": 3
   }
 }
