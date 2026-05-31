@@ -5,7 +5,7 @@
     "reason": "No RHOS-D kernel available (N/A)",
     "inventory": "conf/inventory/rhel-8.6-server-x86_64.yaml",
     "verification_type": "pre",
-    "start_time": "2026-05-31T15:39:12.280519"
+    "start_time": "2026-05-31T16:40:36.822996"
   },
   "RHEL-142090:pre": {
     "jira_id": "RHEL-142090",
@@ -13,7 +13,7 @@
     "reason": "No RHOS-D kernel available (N/A)",
     "inventory": "conf/inventory/rhel-8.4-server-x86_64.yaml",
     "verification_type": "pre",
-    "start_time": "2026-05-31T15:39:12.280831"
+    "start_time": "2026-05-31T16:40:36.823240"
   },
   "RHEL-143893:pre": {
     "jira_id": "RHEL-143893",
@@ -21,7 +21,7 @@
     "reason": "No RHOS-D kernel available (N/A)",
     "inventory": "conf/inventory/rhel-9.0-server-x86_64.yaml",
     "verification_type": "pre",
-    "start_time": "2026-05-31T15:39:12.281176"
+    "start_time": "2026-05-31T16:40:36.823480"
   },
   "RHEL-143890:pre": {
     "jira_id": "RHEL-143890",
@@ -29,7 +29,7 @@
     "reason": "No RHOS-D kernel available (N/A)",
     "inventory": "conf/inventory/rhel-8.6-server-x86_64.yaml",
     "verification_type": "pre",
-    "start_time": "2026-05-31T15:39:12.281479"
+    "start_time": "2026-05-31T16:40:36.823720"
   },
   "RHEL-143889:pre": {
     "jira_id": "RHEL-143889",
@@ -37,7 +37,7 @@
     "reason": "No RHOS-D kernel available (N/A)",
     "inventory": "conf/inventory/rhel-8.4-server-x86_64.yaml",
     "verification_type": "pre",
-    "start_time": "2026-05-31T15:39:12.281837"
+    "start_time": "2026-05-31T16:40:36.823956"
   },
   "RHEL-143872:pre": {
     "jira_id": "RHEL-143872",
@@ -45,7 +45,7 @@
     "reason": "No RHOS-D kernel available (N/A)",
     "inventory": "conf/inventory/rhel-8.6-server-x86_64.yaml",
     "verification_type": "pre",
-    "start_time": "2026-05-31T15:39:12.282141"
+    "start_time": "2026-05-31T16:40:36.824191"
   },
   "RHEL-143871:pre": {
     "jira_id": "RHEL-143871",
@@ -53,7 +53,7 @@
     "reason": "No RHOS-D kernel available (N/A)",
     "inventory": "conf/inventory/rhel-8.4-server-x86_64.yaml",
     "verification_type": "pre",
-    "start_time": "2026-05-31T15:39:12.282446"
+    "start_time": "2026-05-31T16:40:36.824426"
   },
   "RHEL-142103:pre": {
     "jira_id": "RHEL-142103",
@@ -61,7 +61,7 @@
     "reason": "No RHOS-D kernel available (N/A)",
     "inventory": "conf/inventory/rhel-10.3-server-x86_64.yaml",
     "verification_type": "pre",
-    "start_time": "2026-05-31T15:39:12.282748"
+    "start_time": "2026-05-31T16:40:36.824660"
   },
   "RHEL-142099:pre": {
     "jira_id": "RHEL-142099",
@@ -69,7 +69,7 @@
     "reason": "No RHOS-D kernel available (N/A)",
     "inventory": "conf/inventory/rhel-9.9-server-x86_64.yaml",
     "verification_type": "pre",
-    "start_time": "2026-05-31T15:39:12.283048"
+    "start_time": "2026-05-31T16:40:36.824924"
   },
   "RHEL-143902:pre": {
     "jira_id": "RHEL-143902",
@@ -77,7 +77,7 @@
     "reason": "No RHOS-D kernel available (N/A)",
     "inventory": "conf/inventory/rhel-10.3-server-x86_64.yaml",
     "verification_type": "pre",
-    "start_time": "2026-05-31T15:39:12.283348"
+    "start_time": "2026-05-31T16:40:36.825158"
   },
   "RHEL-143898:pre": {
     "jira_id": "RHEL-143898",
@@ -85,7 +85,7 @@
     "reason": "No RHOS-D kernel available (N/A)",
     "inventory": "conf/inventory/rhel-9.9-server-x86_64.yaml",
     "verification_type": "pre",
-    "start_time": "2026-05-31T15:39:12.283648"
+    "start_time": "2026-05-31T16:40:36.825392"
   },
   "RHEL-143884:pre": {
     "jira_id": "RHEL-143884",
@@ -93,7 +93,7 @@
     "reason": "No RHOS-D kernel available (N/A)",
     "inventory": "conf/inventory/rhel-10.3-server-x86_64.yaml",
     "verification_type": "pre",
-    "start_time": "2026-05-31T15:39:12.283951"
+    "start_time": "2026-05-31T16:40:36.825624"
   },
   "RHEL-143880:pre": {
     "jira_id": "RHEL-143880",
@@ -101,7 +101,7 @@
     "reason": "No RHOS-D kernel available (N/A)",
     "inventory": "conf/inventory/rhel-9.9-server-x86_64.yaml",
     "verification_type": "pre",
-    "start_time": "2026-05-31T15:39:12.284250"
+    "start_time": "2026-05-31T16:40:36.825854"
   },
   "RHEL-150472:pre": {
     "jira_id": "RHEL-150472",
@@ -109,7 +109,7 @@
     "reason": "No RHOS-D kernel available (N/A)",
     "inventory": "conf/inventory/rhel-9.9-server-x86_64.yaml",
     "verification_type": "pre",
-    "start_time": "2026-05-31T15:39:12.284560"
+    "start_time": "2026-05-31T16:40:36.826085"
   },
   "RHEL-150468:pre": {
     "jira_id": "RHEL-150468",
@@ -117,7 +117,7 @@
     "reason": "No RHOS-D kernel available (N/A)",
     "inventory": "conf/inventory/rhel-10.3-server-x86_64.yaml",
     "verification_type": "pre",
-    "start_time": "2026-05-31T15:39:12.284875"
+    "start_time": "2026-05-31T16:40:36.826315"
   },
   "RHEL-142095:pre": {
     "jira_id": "RHEL-142095",
@@ -128,11 +128,41 @@
     "rhbuild": "9.1",
     "verification_type": "pre",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-142095",
-    "start_time": "2026-05-31T15:40:10.501383",
+    "start_time": "2026-05-31T16:41:37.427992",
     "status": "failed",
-    "end_time": "2026-05-31T15:44:25.100976",
+    "end_time": "2026-05-31T16:45:52.026807",
     "return_code": 1,
     "terminal_log": "data/terminal_output_RHEL-142095.log",
     "duration_seconds": 255
+  },
+  "RHEL-142094:N/A": {
+    "jira_id": "RHEL-142094",
+    "command": "python3 run.py --instances-name RHEL-142094 --log-dir /app/data/logs/kernel-logs/RHEL-142094 --log-level DEBUG --cloud openstack --rhbuild 9.1 --platform rhel-9 --global-conf conf/squid/cephfs/kernel_verification.yaml --suite suites/tentacle/cephfs/kernel_pre_verification.yaml --osp-cred osp/osp-cred-ci-2.yaml --inventory conf/inventory/rhel-9.0-server-x86_64.yaml --custom-config pre=https://artifacts.internal.cki-project.org/arr-cki-prod-internal-artifacts/internal-artifacts/2522553672/publish_x86_64/14353126033/artifacts/repo/5.14.0-70.179.1.6011_2522553262.el9_0.x86_64/ --build stable --skip-sos-report --store",
+    "rhosd_kernel": "5.14.0-70.179.1.el9_0",
+    "start_time": "2026-05-31T12:24:07.692829",
+    "status": "failed",
+    "end_time": "2026-05-31T12:55:05.664973",
+    "return_code": 1,
+    "terminal_log": "data/terminal_output_RHEL-142094.log"
+  },
+  "RHEL-142092:N/A": {
+    "jira_id": "RHEL-142092",
+    "command": "python3 run.py --instances-name RHEL-142092 --log-dir /app/data/logs/kernel-logs/RHEL-142092 --log-level DEBUG --cloud openstack --rhbuild 5.3 --platform rhel-8 --global-conf conf/squid/cephfs/kernel_verification.yaml --suite suites/tentacle/cephfs/kernel_pre_verification.yaml --osp-cred osp/osp-cred-ci-2.yaml --inventory conf/inventory/rhel-8.8-server-x86_64.yaml --custom-config pre=https://artifacts.internal.cki-project.org/arr-cki-prod-internal-artifacts/internal-artifacts/2521991762/publish_x86_64/14348806467/artifacts/repo/4.18.0-477.141.1.el8_8.9749_2521991333.x86_64/ --build stable --skip-sos-report --store",
+    "rhosd_kernel": "4.18.0-477.128.1.el8_8",
+    "start_time": "2026-05-31T12:56:32.112983",
+    "status": "failed",
+    "end_time": "2026-05-31T12:56:35.034483",
+    "return_code": 1,
+    "terminal_log": "data/terminal_output_RHEL-142092.log"
+  },
+  "RHEL-143896:N/A": {
+    "jira_id": "RHEL-143896",
+    "command": "python3 run.py --instances-name RHEL-143896 --log-dir /app/data/logs/kernel-logs/RHEL-143896 --log-level DEBUG --cloud openstack --rhbuild 9.1 --platform rhel-9 --global-conf conf/squid/cephfs/kernel_verification.yaml --suite suites/tentacle/cephfs/kernel_pre_verification.yaml --osp-cred osp/osp-cred-ci-2.yaml --inventory conf/inventory/rhel-9.6-server-x86_64.yaml --custom-config pre=https://artifacts.internal.cki-project.org/arr-cki-prod-internal-artifacts/internal-artifacts/2423048396/publish_x86_64/13740622001/artifacts/repo/5.14.0-570.105.1.5719_2423048193.el9_6.x86_64/ --build stable --skip-sos-report --store",
+    "rhosd_kernel": "5.14.0-570.110.1.el9_6",
+    "start_time": "2026-05-31T12:57:12.929451",
+    "status": "failed",
+    "end_time": "2026-05-31T13:26:25.989864",
+    "return_code": 1,
+    "terminal_log": "data/terminal_output_RHEL-143896.log"
   }
 }
