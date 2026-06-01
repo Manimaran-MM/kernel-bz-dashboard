@@ -4,136 +4,168 @@
     "status": "skipped",
     "reason": "No RHOS-D kernel available (N/A)",
     "inventory": "conf/inventory/rhel-8.6-server-x86_64.yaml",
+    "platform": "rhel-8",
+    "jira_kernel": "4.18.0-372.192.1.el8_6.9750_2522007249.x86_64",
     "verification_type": "pre",
-    "start_time": "2026-05-31T17:01:24.918685"
+    "start_time": "2026-06-01T14:19:41.306258"
   },
   "RHEL-142090:pre": {
     "jira_id": "RHEL-142090",
     "status": "skipped",
     "reason": "No RHOS-D kernel available (N/A)",
     "inventory": "conf/inventory/rhel-8.4-server-x86_64.yaml",
+    "platform": "rhel-8",
+    "jira_kernel": "4.18.0-305.191.1.el8_4.9751_2522014590.x86_64",
     "verification_type": "pre",
-    "start_time": "2026-05-31T17:01:24.918930"
+    "start_time": "2026-06-01T14:19:41.306508"
   },
   "RHEL-143893:pre": {
     "jira_id": "RHEL-143893",
     "status": "skipped",
     "reason": "No RHOS-D kernel available (N/A)",
     "inventory": "conf/inventory/rhel-9.0-server-x86_64.yaml",
+    "platform": "rhel-9",
+    "jira_kernel": "5.14.0-70.173.1.5716_2423013314.el9_0.x86_64",
     "verification_type": "pre",
-    "start_time": "2026-05-31T17:01:24.919168"
+    "start_time": "2026-06-01T14:19:41.306751"
   },
   "RHEL-143890:pre": {
     "jira_id": "RHEL-143890",
     "status": "skipped",
     "reason": "No RHOS-D kernel available (N/A)",
     "inventory": "conf/inventory/rhel-8.6-server-x86_64.yaml",
+    "platform": "rhel-8",
+    "jira_kernel": "4.18.0-372.187.1.el8_6.9583_2422927396.x86_64",
     "verification_type": "pre",
-    "start_time": "2026-05-31T17:01:24.919403"
+    "start_time": "2026-06-01T14:19:41.307005"
   },
   "RHEL-143889:pre": {
     "jira_id": "RHEL-143889",
     "status": "skipped",
     "reason": "No RHOS-D kernel available (N/A)",
     "inventory": "conf/inventory/rhel-8.4-server-x86_64.yaml",
+    "platform": "rhel-8",
+    "jira_kernel": "4.18.0-305.188.1.el8_4.9582_2422897868.x86_64",
     "verification_type": "pre",
-    "start_time": "2026-05-31T17:01:24.919637"
+    "start_time": "2026-06-01T14:19:41.307245"
   },
   "RHEL-143872:pre": {
     "jira_id": "RHEL-143872",
     "status": "skipped",
     "reason": "No RHOS-D kernel available (N/A)",
     "inventory": "conf/inventory/rhel-8.6-server-x86_64.yaml",
+    "platform": "rhel-8",
+    "jira_kernel": "4.18.0-372.192.1.el8_6.9750_2522007249.x86_64",
     "verification_type": "pre",
-    "start_time": "2026-05-31T17:01:24.919870"
+    "start_time": "2026-06-01T14:19:41.307481"
   },
   "RHEL-143871:pre": {
     "jira_id": "RHEL-143871",
     "status": "skipped",
     "reason": "No RHOS-D kernel available (N/A)",
     "inventory": "conf/inventory/rhel-8.4-server-x86_64.yaml",
+    "platform": "rhel-8",
+    "jira_kernel": "4.18.0-305.191.1.el8_4.9751_2522014590.x86_64",
     "verification_type": "pre",
-    "start_time": "2026-05-31T17:01:24.920106"
+    "start_time": "2026-06-01T14:19:41.307718"
   },
   "RHEL-142103:pre": {
     "jira_id": "RHEL-142103",
     "status": "skipped",
     "reason": "No RHOS-D kernel available (N/A)",
     "inventory": "conf/inventory/rhel-10.3-server-x86_64.yaml",
+    "platform": "rhel-10",
+    "jira_kernel": "6.12.0-184.2017_2267977786.el10.x86_64",
     "verification_type": "pre",
-    "start_time": "2026-05-31T17:01:24.920341"
+    "start_time": "2026-06-01T14:19:41.307953"
   },
   "RHEL-142099:pre": {
     "jira_id": "RHEL-142099",
     "status": "skipped",
     "reason": "No RHOS-D kernel available (N/A)",
     "inventory": "conf/inventory/rhel-9.9-server-x86_64.yaml",
+    "platform": "rhel-9",
+    "jira_kernel": "5.14.0-661.7794_2267967643.el9.x86_64",
     "verification_type": "pre",
-    "start_time": "2026-05-31T17:01:24.920574"
+    "start_time": "2026-06-01T14:19:41.308186"
   },
   "RHEL-143902:pre": {
     "jira_id": "RHEL-143902",
     "status": "skipped",
     "reason": "No RHOS-D kernel available (N/A)",
     "inventory": "conf/inventory/rhel-10.3-server-x86_64.yaml",
+    "platform": "rhel-10",
+    "jira_kernel": "6.12.0-191.2046_2283707585.el10.x86_64",
     "verification_type": "pre",
-    "start_time": "2026-05-31T17:01:24.920808"
+    "start_time": "2026-06-01T14:19:41.308420"
   },
   "RHEL-143898:pre": {
     "jira_id": "RHEL-143898",
     "status": "skipped",
     "reason": "No RHOS-D kernel available (N/A)",
     "inventory": "conf/inventory/rhel-9.9-server-x86_64.yaml",
+    "platform": "rhel-9",
+    "jira_kernel": "5.14.0-666.7823_2283667190.el9.x86_64",
     "verification_type": "pre",
-    "start_time": "2026-05-31T17:01:24.921082"
+    "start_time": "2026-06-01T14:19:41.308653"
   },
   "RHEL-143884:pre": {
     "jira_id": "RHEL-143884",
     "status": "skipped",
     "reason": "No RHOS-D kernel available (N/A)",
     "inventory": "conf/inventory/rhel-10.3-server-x86_64.yaml",
+    "platform": "rhel-10",
+    "jira_kernel": "6.12.0-191.2045_2283589792.el10.x86_64",
     "verification_type": "pre",
-    "start_time": "2026-05-31T17:01:24.921321"
+    "start_time": "2026-06-01T14:19:41.308925"
   },
   "RHEL-143880:pre": {
     "jira_id": "RHEL-143880",
     "status": "skipped",
     "reason": "No RHOS-D kernel available (N/A)",
     "inventory": "conf/inventory/rhel-9.9-server-x86_64.yaml",
+    "platform": "rhel-9",
+    "jira_kernel": "5.14.0-666.7822_2283546904.el9.x86_64",
     "verification_type": "pre",
-    "start_time": "2026-05-31T17:01:24.921555"
+    "start_time": "2026-06-01T14:19:41.309164"
   },
   "RHEL-150472:pre": {
     "jira_id": "RHEL-150472",
     "status": "skipped",
     "reason": "No RHOS-D kernel available (N/A)",
     "inventory": "conf/inventory/rhel-9.9-server-x86_64.yaml",
+    "platform": "rhel-9",
+    "jira_kernel": "5.14.0-683.7898_2332178801.el9.x86_64",
     "verification_type": "pre",
-    "start_time": "2026-05-31T17:01:24.921788"
+    "start_time": "2026-06-01T14:19:41.309399"
   },
   "RHEL-150468:pre": {
     "jira_id": "RHEL-150468",
     "status": "skipped",
     "reason": "No RHOS-D kernel available (N/A)",
     "inventory": "conf/inventory/rhel-10.3-server-x86_64.yaml",
+    "platform": "rhel-10",
+    "jira_kernel": "6.12.0-208.2153_2332138404.el10.x86_64",
     "verification_type": "pre",
-    "start_time": "2026-05-31T17:01:24.922021"
+    "start_time": "2026-06-01T14:19:41.309633"
   },
   "RHEL-142095:pre": {
     "jira_id": "RHEL-142095",
     "command": "python3 run.py --instances-name RHEL-142095 --log-dir /app/data/logs/kernel-logs/RHEL-142095 --log-level DEBUG --cloud openstack --rhbuild 9.1 --platform rhel-9 --global-conf conf/squid/cephfs/kernel_verification.yaml --suite suites/tentacle/cephfs/kernel_pre_verification.yaml --osp-cred osp/osp-cred-ci-2.yaml --inventory conf/inventory/rhel-9.2-server-x86_64.yaml --custom-config pre=https://artifacts.internal.cki-project.org/arr-cki-prod-internal-artifacts/internal-artifacts/2522579554/publish_x86_64/14353323778/artifacts/repo/5.14.0-284.170.1.6010_2522579297.el9_2.x86_64/ --build stable --skip-sos-report --store",
     "rhosd_kernel": "5.14.0-284.170.1.el9_2",
+    "jira_kernel": "5.14.0-284.170.1.6010_2522579297.el9_2.x86_64",
     "inventory": "conf/inventory/rhel-9.2-server-x86_64.yaml",
     "platform": "rhel-9",
     "rhbuild": "9.1",
     "verification_type": "pre",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-142095",
-    "start_time": "2026-05-31T17:02:26.966394",
+    "start_time": "2026-06-01T14:20:50.176677",
     "status": "failed",
-    "end_time": "2026-05-31T17:06:52.046149",
+    "end_time": "2026-06-01T14:25:05.214510",
     "return_code": 1,
+    "reason": "Command exited with return code 1",
     "terminal_log": "data/terminal_output_RHEL-142095.log",
-    "duration_seconds": 265
+    "duration_seconds": 255
   },
   "RHEL-142094:N/A": {
     "jira_id": "RHEL-142094",
