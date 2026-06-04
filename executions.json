@@ -269,13 +269,13 @@
     "rhbuild": "7.1",
     "verification_type": "pre",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-143891_pre",
-    "start_time": "2026-06-04T14:41:04.115285",
+    "start_time": "2026-06-04T15:32:50.704264",
     "status": "failed",
-    "end_time": "2026-06-04T14:41:05.985474",
+    "end_time": "2026-06-04T15:39:54.716706",
     "return_code": 1,
     "reason": "Command exited with return code 1",
     "terminal_log": "data/terminal_output_RHEL-143891_pre.log",
-    "duration_seconds": 2,
+    "duration_seconds": 424,
     "fix_version": "rhel-8.8.0.z"
   },
   "RHEL-143881:pre": {
