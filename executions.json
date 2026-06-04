@@ -382,13 +382,13 @@
     "rhbuild": "7.1",
     "verification_type": "pre",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-143873_pre",
-    "start_time": "2026-06-04T14:43:27.632472",
+    "start_time": "2026-06-04T18:33:26.647452",
     "status": "failed",
-    "end_time": "2026-06-04T14:43:29.703000",
+    "end_time": "2026-06-04T20:10:50.076929",
     "return_code": 1,
     "reason": "Command exited with return code 1",
     "terminal_log": "data/terminal_output_RHEL-143873_pre.log",
-    "duration_seconds": 2
+    "duration_seconds": 5843
   },
   "RHEL-143869:pre": {
     "jira_id": "RHEL-143869",
