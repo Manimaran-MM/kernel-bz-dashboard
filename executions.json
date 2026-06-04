@@ -483,5 +483,24 @@
     "return_code": 0,
     "terminal_log": "data/terminal_output_RHEL-143899_pre.log",
     "duration_seconds": 6208
+  },
+  "RHEL-143882:pre": {
+    "jira_id": "RHEL-143882",
+    "command": "python3 run.py --instances-name RHEL-143882 --log-dir /app/data/logs/kernel-logs/RHEL-143882_pre --log-level DEBUG --cloud openstack --rhbuild 9.0 --platform rhel-10 --global-conf conf/tentacle/cephfs/kernel-validation/kernel_verification.yaml --suite suites/tentacle/cephfs/kernel-validation/kernel_pre_verification.yaml --osp-cred osp/osp-cred-ci-2.yaml --inventory conf/inventory/rhel-10.1-server-x86_64.yaml --custom-config pre=https://artifacts.internal.cki-project.org/arr-cki-prod-internal-artifacts/internal-artifacts/2283573769/publish_x86_64/12848902728/artifacts/repo/6.12.0-124.31.1.696_2283573642.el10_1.x86_64/ --build stable --skip-sos-report --store",
+    "rhosd_kernel": "6.12.0-124.29.1.el10_1",
+    "jira_kernel": "6.12.0-124.31.1.696_2283573642.el10_1.x86_64",
+    "fix_version": "rhel-10.1.z",
+    "inventory": "conf/inventory/rhel-10.1-server-x86_64.yaml",
+    "platform": "rhel-10",
+    "rhbuild": "9.0",
+    "verification_type": "pre",
+    "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-143882_pre",
+    "start_time": "2026-06-04T22:36:09.962982",
+    "status": "failed",
+    "end_time": "2026-06-04T23:08:02.660204",
+    "return_code": 1,
+    "reason": "Command exited with return code 1",
+    "terminal_log": "data/terminal_output_RHEL-143882_pre.log",
+    "duration_seconds": 1913
   }
 }
