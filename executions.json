@@ -7,7 +7,7 @@
     "platform": "rhel-9",
     "jira_kernel": "4.18.0-372.192.1.el8_6.9750_2522007249.x86_64",
     "verification_type": "pre",
-    "start_time": "2026-06-04T16:24:30.741194",
+    "start_time": "2026-06-05T06:36:27.460059",
     "fix_version": "rhel-8.6.0.z"
   },
   "RHEL-142090:pre": {
@@ -18,7 +18,7 @@
     "platform": "rhel-9",
     "jira_kernel": "4.18.0-305.191.1.el8_4.9751_2522014590.x86_64",
     "verification_type": "pre",
-    "start_time": "2026-06-04T16:24:30.741315",
+    "start_time": "2026-06-05T06:36:27.460211",
     "fix_version": "rhel-8.4.0.z"
   },
   "RHEL-143890:pre": {
@@ -29,7 +29,7 @@
     "platform": "rhel-9",
     "jira_kernel": "4.18.0-372.187.1.el8_6.9583_2422927396.x86_64",
     "verification_type": "pre",
-    "start_time": "2026-06-04T16:24:30.741418",
+    "start_time": "2026-06-05T06:36:27.460325",
     "fix_version": "rhel-8.6.0.z"
   },
   "RHEL-143889:pre": {
@@ -40,7 +40,7 @@
     "platform": "rhel-9",
     "jira_kernel": "4.18.0-305.188.1.el8_4.9582_2422897868.x86_64",
     "verification_type": "pre",
-    "start_time": "2026-06-04T16:24:30.741518",
+    "start_time": "2026-06-05T06:36:27.460431",
     "fix_version": "rhel-8.4.0.z"
   },
   "RHEL-143872:pre": {
@@ -51,7 +51,7 @@
     "platform": "rhel-9",
     "jira_kernel": "4.18.0-372.192.1.el8_6.9750_2522007249.x86_64",
     "verification_type": "pre",
-    "start_time": "2026-06-04T16:24:30.741620",
+    "start_time": "2026-06-05T06:36:27.460533",
     "fix_version": "rhel-8.6.0.z"
   },
   "RHEL-143871:pre": {
@@ -62,7 +62,7 @@
     "platform": "rhel-9",
     "jira_kernel": "4.18.0-305.191.1.el8_4.9751_2522014590.x86_64",
     "verification_type": "pre",
-    "start_time": "2026-06-04T16:24:30.741737",
+    "start_time": "2026-06-05T06:36:27.460632",
     "fix_version": "rhel-8.4.0.z"
   },
   "RHEL-142103:pre": {
@@ -73,7 +73,7 @@
     "platform": "rhel-10",
     "jira_kernel": "6.12.0-184.2017_2267977786.el10.x86_64",
     "verification_type": "pre",
-    "start_time": "2026-06-04T16:24:30.741849",
+    "start_time": "2026-06-05T06:36:27.460729",
     "fix_version": "rhel-10.3"
   },
   "RHEL-142099:pre": {
@@ -84,7 +84,7 @@
     "platform": "rhel-9",
     "jira_kernel": "5.14.0-661.7794_2267967643.el9.x86_64",
     "verification_type": "pre",
-    "start_time": "2026-06-04T16:24:30.741961",
+    "start_time": "2026-06-05T06:36:27.460834",
     "fix_version": "rhel-9.9"
   },
   "RHEL-143902:pre": {
@@ -95,7 +95,7 @@
     "platform": "rhel-10",
     "jira_kernel": "6.12.0-191.2046_2283707585.el10.x86_64",
     "verification_type": "pre",
-    "start_time": "2026-06-04T16:24:30.742062",
+    "start_time": "2026-06-05T06:36:27.460934",
     "fix_version": "rhel-10.3"
   },
   "RHEL-143898:pre": {
@@ -106,7 +106,7 @@
     "platform": "rhel-9",
     "jira_kernel": "5.14.0-666.7823_2283667190.el9.x86_64",
     "verification_type": "pre",
-    "start_time": "2026-06-04T16:24:30.742181",
+    "start_time": "2026-06-05T06:36:27.461032",
     "fix_version": "rhel-9.9"
   },
   "RHEL-143884:pre": {
@@ -117,7 +117,7 @@
     "platform": "rhel-10",
     "jira_kernel": "6.12.0-191.2045_2283589792.el10.x86_64",
     "verification_type": "pre",
-    "start_time": "2026-06-04T16:24:30.742280",
+    "start_time": "2026-06-05T06:36:27.461164",
     "fix_version": "rhel-10.3"
   },
   "RHEL-143880:pre": {
@@ -128,7 +128,7 @@
     "platform": "rhel-9",
     "jira_kernel": "5.14.0-666.7822_2283546904.el9.x86_64",
     "verification_type": "pre",
-    "start_time": "2026-06-04T16:24:30.742379",
+    "start_time": "2026-06-05T06:36:27.461267",
     "fix_version": "rhel-9.9"
   },
   "RHEL-150472:pre": {
@@ -139,7 +139,7 @@
     "platform": "rhel-9",
     "jira_kernel": "5.14.0-683.7898_2332178801.el9.x86_64",
     "verification_type": "pre",
-    "start_time": "2026-06-04T16:24:30.742476",
+    "start_time": "2026-06-05T06:36:27.461388",
     "fix_version": "rhel-9.9"
   },
   "RHEL-150468:pre": {
@@ -150,7 +150,7 @@
     "platform": "rhel-10",
     "jira_kernel": "6.12.0-208.2153_2332138404.el10.x86_64",
     "verification_type": "pre",
-    "start_time": "2026-06-04T16:24:30.742572",
+    "start_time": "2026-06-05T06:36:27.461491",
     "fix_version": "rhel-10.3"
   },
   "RHEL-142095:pre": {
@@ -269,13 +269,13 @@
     "rhbuild": "7.1",
     "verification_type": "pre",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-143891_pre",
-    "start_time": "2026-06-04T18:29:50.943781",
-    "status": "failed",
-    "end_time": "2026-06-04T18:32:15.781614",
-    "return_code": 1,
+    "start_time": "2026-06-05T06:37:16.341305",
+    "status": "success",
+    "end_time": "2026-06-05T08:44:23.123692",
+    "return_code": 0,
     "reason": "Command exited with return code 1",
     "terminal_log": "data/terminal_output_RHEL-143891_pre.log",
-    "duration_seconds": 145,
+    "duration_seconds": 7627,
     "fix_version": "rhel-8.8.0.z"
   },
   "RHEL-143881:pre": {
@@ -350,7 +350,7 @@
     "jira_id": "RHEL-142088",
     "reason": "Manual trigger is needed since rhel-7 needs cross build verification",
     "status": "excluded",
-    "start_time": "2026-06-03T16:49:15.190235"
+    "start_time": "2026-06-05T06:32:04.675891"
   },
   "RHEL-142097:post": {
     "jira_id": "RHEL-142097",
@@ -614,5 +614,11 @@
     "return_code": 0,
     "terminal_log": "data/terminal_output_RHEL-150463_pre.log",
     "duration_seconds": 6518
+  },
+  "RHEL-143869:N/A": {
+    "jira_id": "RHEL-143869",
+    "reason": "Manual trigger is needed since rhel-7 needs cross build verification",
+    "status": "excluded",
+    "start_time": "2026-06-05T06:32:04.675900"
   }
 }
