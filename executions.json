@@ -363,13 +363,14 @@
     "rhbuild": "9.0",
     "verification_type": "post",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-142097_post",
-    "start_time": "2026-06-05T12:26:00.514294",
-    "status": "failed",
-    "end_time": "2026-06-05T12:28:22.408774",
+    "start_time": "2026-06-05T15:20:24.180864",
+    "status": "timeout",
+    "end_time": "2026-06-05T19:20:24.183696",
     "return_code": 1,
-    "reason": "Command exited with return code 1",
+    "reason": "Command timed out after 4 hours",
     "terminal_log": "data/terminal_output_RHEL-142097_post.log",
-    "duration_seconds": 142
+    "duration_seconds": 14400,
+    "error": "Command timed out after 4 hours"
   },
   "RHEL-143873:pre": {
     "jira_id": "RHEL-143873",
