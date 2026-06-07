@@ -412,7 +412,7 @@
   },
   "RHEL-143896:post": {
     "jira_id": "RHEL-143896",
-    "command": "python3 run.py --instances-name RHEL-143896 --log-dir /app/data/logs/kernel-logs/RHEL-143896_post --log-level DEBUG --cloud openstack --rhbuild 9.0 --platform rhel-9 --global-conf conf/tentacle/cephfs/kernel-validation/kernel_verification.yaml --suite suites/tentacle/cephfs/kernel-validation/kernel_post_verification.yaml --osp-cred osp/osp-cred-ci-2.yaml --inventory conf/inventory/rhel-9.6-server-x86_64.yaml --custom-config post=https://download2.engineering.redhat.com/brewroot/vol/rhel-9/packages/kernel/5.14.0/570.120.1.el9_6/x86_64/kernel-5.14.0-570.120.1.el9_6.x86_64.rpm --build stable --skip-sos-report --store",
+    "command": "python3 run.py --instances-name RHEL-143896 --log-dir /app/data/logs/kernel-logs/RHEL-143896_post --log-level DEBUG --cloud openstack --rhbuild 9.0 --platform rhel-9 --global-conf conf/tentacle/cephfs/kernel-validation/kernel_verification.yaml --suite suites/tentacle/cephfs/kernel-validation/kernel_post_verification.yaml --osp-cred osp/osp-cred-ci-2.yaml --inventory conf/inventory/rhel-9.6-server-x86_64.yaml --custom-config post=https://download2.engineering.redhat.com/brewroot/vol/rhel-9/packages/kernel/5.14.0/570.120.1.el9_6/x86_64/kernel-5.14.0-570.120.1.el9_6.x86_64.rpm --build rc --skip-sos-report --store",
     "rhosd_kernel": "5.14.0-570.116.1.el9_6",
     "jira_kernel": "5.14.0-570.119.1.5719_2570904273.el9_6.x86_64",
     "fix_version": "rhel-9.6.z",
@@ -421,13 +421,13 @@
     "rhbuild": "9.0",
     "verification_type": "post",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-143896_post",
-    "start_time": "2026-06-07T09:02:10.210074",
+    "start_time": "2026-06-07T11:58:11.658621",
     "status": "failed",
-    "end_time": "2026-06-07T09:16:33.055693",
+    "end_time": "2026-06-07T17:42:37.441967",
     "return_code": 1,
     "reason": "Command exited with return code 1",
     "terminal_log": "data/terminal_output_RHEL-143896_post.log",
-    "duration_seconds": 863,
+    "duration_seconds": 20666,
     "error": "Command timed out after 4 hours"
   },
   "RHEL-143900:pre": {
