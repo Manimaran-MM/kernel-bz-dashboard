@@ -7,7 +7,7 @@
     "platform": "rhel-9",
     "jira_kernel": "4.18.0-372.192.1.el8_6.9750_2522007249.x86_64",
     "verification_type": "pre",
-    "start_time": "2026-06-07T08:42:40.906587",
+    "start_time": "2026-06-09T06:23:38.070962",
     "fix_version": "rhel-8.6.0.z"
   },
   "RHEL-142090:pre": {
@@ -16,9 +16,9 @@
     "reason": "No RHOS-D kernel available (N/A)",
     "inventory": "conf/inventory/rhel-9.4-server-x86_64.yaml",
     "platform": "rhel-9",
-    "jira_kernel": "4.18.0-305.191.1.el8_4.9751_2522014590.x86_64",
+    "jira_kernel": "4.18.0-305.193.1.el8_4.9751_2584139127.x86_64",
     "verification_type": "pre",
-    "start_time": "2026-06-07T08:42:40.906683",
+    "start_time": "2026-06-09T06:23:38.071060",
     "fix_version": "rhel-8.4.0.z"
   },
   "RHEL-143890:pre": {
@@ -27,9 +27,9 @@
     "reason": "No RHOS-D kernel available (N/A)",
     "inventory": "conf/inventory/rhel-9.4-server-x86_64.yaml",
     "platform": "rhel-9",
-    "jira_kernel": "4.18.0-372.187.1.el8_6.9583_2422927396.x86_64",
+    "jira_kernel": "4.18.0-372.195.1.el8_6.9583_2584134617.x86_64",
     "verification_type": "pre",
-    "start_time": "2026-06-07T08:42:40.906815",
+    "start_time": "2026-06-09T06:23:38.071172",
     "fix_version": "rhel-8.6.0.z"
   },
   "RHEL-143889:pre": {
@@ -38,9 +38,9 @@
     "reason": "No RHOS-D kernel available (N/A)",
     "inventory": "conf/inventory/rhel-9.4-server-x86_64.yaml",
     "platform": "rhel-9",
-    "jira_kernel": "4.18.0-305.188.1.el8_4.9582_2422897868.x86_64",
+    "jira_kernel": "4.18.0-305.193.1.el8_4.9582_2584132204.x86_64",
     "verification_type": "pre",
-    "start_time": "2026-06-07T08:42:40.906919",
+    "start_time": "2026-06-09T06:23:38.071271",
     "fix_version": "rhel-8.4.0.z"
   },
   "RHEL-143872:pre": {
@@ -51,7 +51,7 @@
     "platform": "rhel-9",
     "jira_kernel": "4.18.0-372.192.1.el8_6.9750_2522007249.x86_64",
     "verification_type": "pre",
-    "start_time": "2026-06-07T08:42:40.907059",
+    "start_time": "2026-06-09T06:23:38.071370",
     "fix_version": "rhel-8.6.0.z"
   },
   "RHEL-143871:pre": {
@@ -60,21 +60,29 @@
     "reason": "No RHOS-D kernel available (N/A)",
     "inventory": "conf/inventory/rhel-9.4-server-x86_64.yaml",
     "platform": "rhel-9",
-    "jira_kernel": "4.18.0-305.191.1.el8_4.9751_2522014590.x86_64",
+    "jira_kernel": "4.18.0-305.193.1.el8_4.9751_2584139127.x86_64",
     "verification_type": "pre",
-    "start_time": "2026-06-07T08:42:40.907184",
+    "start_time": "2026-06-09T06:23:38.071453",
     "fix_version": "rhel-8.4.0.z"
   },
   "RHEL-142103:pre": {
     "jira_id": "RHEL-142103",
-    "status": "skipped",
-    "reason": "No RHOS-D kernel available (N/A)",
+    "status": "failed",
+    "reason": "Command exited with return code 1",
     "inventory": "conf/inventory/rhel-10.3-server-x86_64.yaml",
     "platform": "rhel-10",
-    "jira_kernel": "6.12.0-184.2017_2267977786.el10.x86_64",
+    "jira_kernel": "6.12.0-236.2017_2584119579.el10.x86_64",
     "verification_type": "pre",
-    "start_time": "2026-06-07T08:42:40.907286",
-    "fix_version": "rhel-10.3"
+    "start_time": "2026-06-09T06:24:14.658942",
+    "fix_version": "rhel-10.3",
+    "command": "python3 run.py --instances-name RHEL-142103 --log-dir /app/data/logs/kernel-logs/RHEL-142103_pre --log-level DEBUG --cloud openstack --rhbuild 9.0 --platform rhel-10 --global-conf conf/tentacle/cephfs/kernel-validation/kernel_verification.yaml --suite suites/tentacle/cephfs/kernel-validation/kernel_pre_verification.yaml --osp-cred osp/osp-cred-ci-2.yaml --inventory conf/inventory/rhel-10.3-server-x86_64.yaml --custom-config pre=https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/trusted-artifacts/2584119995/publish_x86_64/14738651777/artifacts/repo/6.12.0-236.2017_2584119579.el10.x86_64/ --build rc --skip-sos-report --store",
+    "rhosd_kernel": "6.12.0-236.el10",
+    "rhbuild": "9.0",
+    "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-142103_pre",
+    "end_time": "2026-06-09T06:32:54.137583",
+    "return_code": 1,
+    "terminal_log": "data/terminal_output_RHEL-142103_pre.log",
+    "duration_seconds": 519
   },
   "RHEL-142099:pre": {
     "jira_id": "RHEL-142099",
@@ -199,11 +207,11 @@
     "rhbuild": "5.3",
     "verification_type": "pre",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-142088_pre",
-    "start_time": "2026-06-04T18:29:09.602612",
-    "status": "failed",
+    "start_time": "2026-06-09T06:22:51.304482",
+    "status": "excluded",
     "end_time": "2026-06-04T18:29:11.724770",
     "return_code": 1,
-    "reason": "Command exited with return code 1",
+    "reason": "Manual trigger is needed since rhel-7 needs cross build verification",
     "terminal_log": "data/terminal_output_RHEL-142088_pre.log",
     "duration_seconds": 2,
     "fix_version": "rhel-7.9.z"
@@ -346,12 +354,6 @@
     "terminal_log": "data/terminal_output_RHEL-143876.log",
     "duration_seconds": 7375
   },
-  "RHEL-142088:N/A": {
-    "jira_id": "RHEL-142088",
-    "reason": "Manual trigger is needed since rhel-7 needs cross build verification",
-    "status": "excluded",
-    "start_time": "2026-06-07T08:36:34.259455"
-  },
   "RHEL-142097:post": {
     "jira_id": "RHEL-142097",
     "command": "python3 run.py --instances-name RHEL-142097 --log-dir /app/data/logs/kernel-logs/RHEL-142097_post --log-level DEBUG --cloud openstack --rhbuild 9.0 --platform rhel-9 --global-conf conf/tentacle/cephfs/kernel-validation/kernel_verification.yaml --suite suites/tentacle/cephfs/kernel-validation/kernel_post_verification.yaml --osp-cred osp/osp-cred-ci-2.yaml --inventory conf/inventory/rhel-9.6-server-x86_64.yaml --custom-config post=https://download2.engineering.redhat.com/brewroot/vol/rhel-9/packages/kernel/5.14.0/570.120.1.el9_6/x86_64/kernel-5.14.0-570.120.1.el9_6.x86_64.rpm --build rc --skip-sos-report --store",
@@ -402,11 +404,11 @@
     "rhbuild": "5.3",
     "verification_type": "pre",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-143869_pre",
-    "start_time": "2026-06-04T20:13:14.325942",
-    "status": "failed",
+    "start_time": "2026-06-09T06:22:51.304494",
+    "status": "excluded",
     "end_time": "2026-06-04T20:13:16.647027",
     "return_code": 1,
-    "reason": "Command exited with return code 1",
+    "reason": "Manual trigger is needed since rhel-7 needs cross build verification",
     "terminal_log": "data/terminal_output_RHEL-143869_pre.log",
     "duration_seconds": 2
   },
@@ -441,11 +443,11 @@
     "rhbuild": "9.0",
     "verification_type": "pre",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-143900_pre",
-    "start_time": "2026-06-07T09:37:02.710778",
-    "status": "failed",
+    "start_time": "2026-06-09T06:22:51.304498",
+    "status": "excluded",
     "end_time": "2026-06-07T09:37:04.681500",
     "return_code": 1,
-    "reason": "Command exited with return code 1",
+    "reason": "Not required to test as it will be cleaned up as no further release planned for 10.1",
     "terminal_log": "data/terminal_output_RHEL-143900_pre.log",
     "duration_seconds": 2
   },
@@ -460,11 +462,11 @@
     "rhbuild": "9.0",
     "verification_type": "pre",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-143897_pre",
-    "start_time": "2026-06-07T09:37:44.117053",
-    "status": "failed",
+    "start_time": "2026-06-09T06:22:51.304501",
+    "status": "excluded",
     "end_time": "2026-06-07T09:52:31.129640",
     "return_code": 1,
-    "reason": "Command exited with return code 1",
+    "reason": "Not required to test as it will be cleaned up as no further release planned for 9.7",
     "terminal_log": "data/terminal_output_RHEL-143897_pre.log",
     "duration_seconds": 887
   },
@@ -497,11 +499,11 @@
     "rhbuild": "9.0",
     "verification_type": "pre",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-143882_pre",
-    "start_time": "2026-06-07T09:56:19.380743",
-    "status": "failed",
+    "start_time": "2026-06-09T06:22:51.304505",
+    "status": "excluded",
     "end_time": "2026-06-07T09:56:21.400845",
     "return_code": 1,
-    "reason": "Command exited with return code 1",
+    "reason": "Not required to test as it will be cleaned up as no further release planned for 10.1",
     "terminal_log": "data/terminal_output_RHEL-143882_pre.log",
     "duration_seconds": 2
   },
@@ -616,11 +618,5 @@
     "return_code": 0,
     "terminal_log": "data/terminal_output_RHEL-150463_pre.log",
     "duration_seconds": 6518
-  },
-  "RHEL-143869:N/A": {
-    "jira_id": "RHEL-143869",
-    "reason": "Manual trigger is needed since rhel-7 needs cross build verification",
-    "status": "excluded",
-    "start_time": "2026-06-07T08:36:34.259464"
   }
 }
