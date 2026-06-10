@@ -7,7 +7,7 @@
     "platform": "rhel-9",
     "jira_kernel": "4.18.0-372.192.1.el8_6.9750_2522007249.x86_64",
     "verification_type": "pre",
-    "start_time": "2026-06-10T08:13:04.025716",
+    "start_time": "2026-06-10T08:19:47.629739",
     "fix_version": "rhel-8.6.0.z"
   },
   "RHEL-142090:pre": {
@@ -18,7 +18,7 @@
     "platform": "rhel-9",
     "jira_kernel": "4.18.0-305.193.1.el8_4.9751_2584139127.x86_64",
     "verification_type": "pre",
-    "start_time": "2026-06-10T08:13:04.025811",
+    "start_time": "2026-06-10T08:19:47.629837",
     "fix_version": "rhel-8.4.0.z"
   },
   "RHEL-143890:pre": {
@@ -29,7 +29,7 @@
     "platform": "rhel-9",
     "jira_kernel": "4.18.0-372.195.1.el8_6.9583_2584134617.x86_64",
     "verification_type": "pre",
-    "start_time": "2026-06-10T08:13:04.025898",
+    "start_time": "2026-06-10T08:19:47.629924",
     "fix_version": "rhel-8.6.0.z"
   },
   "RHEL-143889:pre": {
@@ -40,7 +40,7 @@
     "platform": "rhel-9",
     "jira_kernel": "4.18.0-305.193.1.el8_4.9582_2584132204.x86_64",
     "verification_type": "pre",
-    "start_time": "2026-06-10T08:13:04.025981",
+    "start_time": "2026-06-10T08:19:47.630026",
     "fix_version": "rhel-8.4.0.z"
   },
   "RHEL-143872:pre": {
@@ -51,7 +51,7 @@
     "platform": "rhel-9",
     "jira_kernel": "4.18.0-372.192.1.el8_6.9750_2522007249.x86_64",
     "verification_type": "pre",
-    "start_time": "2026-06-10T08:13:04.026064",
+    "start_time": "2026-06-10T08:19:47.630181",
     "fix_version": "rhel-8.6.0.z"
   },
   "RHEL-143871:pre": {
@@ -62,7 +62,7 @@
     "platform": "rhel-9",
     "jira_kernel": "4.18.0-305.193.1.el8_4.9751_2584139127.x86_64",
     "verification_type": "pre",
-    "start_time": "2026-06-10T08:13:04.026178",
+    "start_time": "2026-06-10T08:19:47.630333",
     "fix_version": "rhel-8.4.0.z"
   },
   "RHEL-142103:pre": {
@@ -263,7 +263,7 @@
     "rhbuild": "5.3",
     "verification_type": "pre",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-142088_pre",
-    "start_time": "2026-06-10T08:11:25.737499",
+    "start_time": "2026-06-10T08:18:43.162403",
     "status": "excluded",
     "end_time": "2026-06-04T18:29:11.724770",
     "return_code": 1,
@@ -460,7 +460,7 @@
     "rhbuild": "5.3",
     "verification_type": "pre",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-143869_pre",
-    "start_time": "2026-06-10T08:11:25.737507",
+    "start_time": "2026-06-10T08:18:43.162412",
     "status": "excluded",
     "end_time": "2026-06-04T20:13:16.647027",
     "return_code": 1,
@@ -499,7 +499,7 @@
     "rhbuild": "9.0",
     "verification_type": "pre",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-143900_pre",
-    "start_time": "2026-06-10T08:11:25.737509",
+    "start_time": "2026-06-10T08:18:43.162414",
     "status": "excluded",
     "end_time": "2026-06-07T09:37:04.681500",
     "return_code": 1,
@@ -518,7 +518,7 @@
     "rhbuild": "9.0",
     "verification_type": "pre",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-143897_pre",
-    "start_time": "2026-06-10T08:11:25.737510",
+    "start_time": "2026-06-10T08:18:43.162416",
     "status": "excluded",
     "end_time": "2026-06-07T09:52:31.129640",
     "return_code": 1,
@@ -555,7 +555,7 @@
     "rhbuild": "9.0",
     "verification_type": "pre",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-143882_pre",
-    "start_time": "2026-06-10T08:11:25.737512",
+    "start_time": "2026-06-10T08:18:43.162417",
     "status": "excluded",
     "end_time": "2026-06-07T09:56:21.400845",
     "return_code": 1,
@@ -686,9 +686,9 @@
     "rhbuild": "9.0",
     "verification_type": "post",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-142095_post",
-    "start_time": "2026-06-10T08:13:40.442030",
+    "start_time": "2026-06-10T08:20:23.536522",
     "status": "failed",
-    "end_time": "2026-06-10T08:13:42.210517",
+    "end_time": "2026-06-10T08:20:25.205620",
     "return_code": 127,
     "reason": "Command exited with return code 127",
     "terminal_log": "data/terminal_output_RHEL-142095_post.log",
