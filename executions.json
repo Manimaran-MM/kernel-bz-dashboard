@@ -73,16 +73,16 @@
     "platform": "rhel-10",
     "jira_kernel": "6.12.0-236.2017_2584119579.el10.x86_64",
     "verification_type": "pre",
-    "start_time": "2026-06-09T06:24:14.658942",
+    "start_time": "2026-06-10T08:22:26.751548",
     "fix_version": "rhel-10.3",
-    "command": "python3 run.py --instances-name RHEL-142103 --log-dir /app/data/logs/kernel-logs/RHEL-142103_pre --log-level DEBUG --cloud openstack --rhbuild 9.0 --platform rhel-10 --global-conf conf/tentacle/cephfs/kernel-validation/kernel_verification.yaml --suite suites/tentacle/cephfs/kernel-validation/kernel_pre_verification.yaml --osp-cred osp/osp-cred-ci-2.yaml --inventory conf/inventory/rhel-10.3-server-x86_64.yaml --custom-config pre=https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/trusted-artifacts/2584119995/publish_x86_64/14738651777/artifacts/repo/6.12.0-236.2017_2584119579.el10.x86_64/ --build rc --skip-sos-report --store",
+    "command": "python3 run.py --instances-name auto-kernel-jira-RHEL-142103 --log-dir /app/data/logs/kernel-logs/RHEL-142103_pre --log-level DEBUG --cloud openstack --rhbuild 9.0 --platform rhel-10 --global-conf conf/tentacle/cephfs/kernel-validation/kernel_verification.yaml --suite suites/tentacle/cephfs/kernel-validation/kernel_pre_verification.yaml --osp-cred osp/osp-cred-ci-2.yaml --inventory conf/inventory/rhel-10.3-server-x86_64.yaml --custom-config pre=https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/trusted-artifacts/2584119995/publish_x86_64/14738651777/artifacts/repo/6.12.0-236.2017_2584119579.el10.x86_64/ --build rc --skip-sos-report --store",
     "rhosd_kernel": "6.12.0-236.el10",
     "rhbuild": "9.0",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-142103_pre",
-    "end_time": "2026-06-09T06:32:54.137583",
+    "end_time": "2026-06-10T08:23:40.041179",
     "return_code": 1,
     "terminal_log": "data/terminal_output_RHEL-142103_pre.log",
-    "duration_seconds": 519
+    "duration_seconds": 73
   },
   "RHEL-142099:pre": {
     "jira_id": "RHEL-142099",
