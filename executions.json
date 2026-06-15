@@ -875,13 +875,13 @@
     "rhbuild": "7.1",
     "verification_type": "post",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-143873_post",
-    "start_time": "2026-06-13T06:25:54.203856",
-    "status": "failed",
-    "end_time": "2026-06-13T07:26:44.433759",
-    "return_code": 1,
+    "start_time": "2026-06-15T06:35:18.773565",
+    "status": "success",
+    "end_time": "2026-06-15T08:49:54.540902",
+    "return_code": 0,
     "reason": "Command exited with return code 1",
     "terminal_log": "data/terminal_output_RHEL-143873_post.log",
-    "duration_seconds": 3650
+    "duration_seconds": 8076
   },
   "RHEL-150465:post": {
     "jira_id": "RHEL-150465",
