@@ -1057,11 +1057,10 @@
     "verification_type": "post",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-143890_post",
     "start_time": "2026-06-25T03:04:43.917248",
-    "status": "running",
-    "end_time": "2026-06-24T09:07:21.262080",
-    "return_code": 1,
-    "reason": "Command exited with return code 1",
+    "status": "success",
+    "end_time": "2026-06-25T05:21:12.637721",
+    "return_code": 0,
     "terminal_log": "data/terminal_output_RHEL-143890_post.log",
-    "duration_seconds": 3664
+    "duration_seconds": 8189
   }
 }
