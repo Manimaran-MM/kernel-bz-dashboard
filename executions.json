@@ -999,8 +999,8 @@
   },
   "RHEL-142091:post": {
     "jira_id": "RHEL-142091",
-    "status": "running",
-    "reason": "No RHOS-D kernel available (N/A)",
+    "status": "failed",
+    "reason": "Command exited with return code 1",
     "inventory": "conf/inventory/rhel-9.4-server-x86_64.yaml",
     "platform": "rhel-9",
     "jira_kernel": "4.18.0-372.192.1.el8_6.9750_2522007249.x86_64",
@@ -1010,7 +1010,11 @@
     "command": "python3 run.py --instances-name 'auto-kernel-jira-RHEL-142091' --log-dir /app/data/logs/kernel-logs/RHEL-142091_post --log-level 'DEBUG' --cloud 'openstack' --rhbuild '7.1' --platform 'rhel-9' --global-conf 'conf/tentacle/cephfs/kernel-validation/kernel_verification_rhel8_client.yaml' --suite 'suites/tentacle/cephfs/kernel-validation/kernel_post_verification_rhel8_client.yaml' --osp-cred 'osp/osp-cred-ci-2.yaml' --inventory 'conf/inventory/rhel-9.4-server-x86_64.yaml' --custom-config post='https://download2.engineering.redhat.com/brewroot/vol/rhel-8/packages/kernel/4.18.0/372.198.1.el8_6/x86_64/kernel-4.18.0-372.198.1.el8_6.x86_64.rpm' --build 'stable' --skip-sos-report --store",
     "rhosd_kernel": "4.18.0-372.46.1.el8_6",
     "rhbuild": "7.1",
-    "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-142091_post"
+    "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-142091_post",
+    "end_time": "2026-06-25T03:01:33.360247",
+    "return_code": 1,
+    "terminal_log": "data/terminal_output_RHEL-142091_post.log",
+    "duration_seconds": 3333
   },
   "RHEL-143872:post": {
     "jira_id": "RHEL-143872",
