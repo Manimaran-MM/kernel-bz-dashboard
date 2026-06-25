@@ -1118,6 +1118,10 @@
     "verification_type": "post",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-180187_post",
     "start_time": "2026-06-25T17:23:42.528513",
-    "status": "running"
+    "status": "success",
+    "end_time": "2026-06-25T19:24:42.235209",
+    "return_code": 0,
+    "terminal_log": "data/terminal_output_RHEL-180187_post.log",
+    "duration_seconds": 7260
   }
 }
