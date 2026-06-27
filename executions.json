@@ -1136,6 +1136,11 @@
     "verification_type": "post",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-142090_post",
     "start_time": "2026-06-27T02:04:18.255858",
-    "status": "running"
+    "status": "failed",
+    "end_time": "2026-06-27T03:15:54.878784",
+    "return_code": 1,
+    "reason": "Command exited with return code 1",
+    "terminal_log": "data/terminal_output_RHEL-142090_post.log",
+    "duration_seconds": 4297
   }
 }
