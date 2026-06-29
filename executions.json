@@ -1171,12 +1171,11 @@
     "rhbuild": "7.1",
     "verification_type": "post",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-143871_post",
-    "start_time": "2026-06-27T05:39:39.234699",
-    "status": "failed",
-    "end_time": "2026-06-27T06:47:39.773309",
-    "return_code": 1,
-    "reason": "Command exited with return code 1",
+    "start_time": "2026-06-29T07:42:44.125785",
+    "status": "success",
+    "end_time": "2026-06-29T10:01:32.811078",
+    "return_code": 0,
     "terminal_log": "data/terminal_output_RHEL-143871_post.log",
-    "duration_seconds": 4081
+    "duration_seconds": 8329
   }
 }
