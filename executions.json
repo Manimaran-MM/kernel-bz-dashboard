@@ -1153,12 +1153,12 @@
     "verification_type": "post",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-143889_post",
     "start_time": "2026-07-05T02:03:54.867007",
-    "status": "running",
-    "end_time": "2026-07-01T03:06:26.746642",
+    "status": "failed",
+    "end_time": "2026-07-05T03:10:15.226803",
     "return_code": 1,
     "reason": "Command exited with return code 1",
     "terminal_log": "data/terminal_output_RHEL-143889_post.log",
-    "duration_seconds": 3870
+    "duration_seconds": 3980
   },
   "RHEL-143871:post": {
     "jira_id": "RHEL-143871",
