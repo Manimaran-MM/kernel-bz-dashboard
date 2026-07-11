@@ -1189,11 +1189,10 @@
     "verification_type": "pre",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-180666_pre",
     "start_time": "2026-07-11T02:04:34.494159",
-    "status": "running",
-    "end_time": "2026-07-09T02:05:44.288400",
-    "return_code": 1,
-    "reason": "Command exited with return code 1",
+    "status": "success",
+    "end_time": "2026-07-11T03:58:41.166202",
+    "return_code": 0,
     "terminal_log": "data/terminal_output_RHEL-180666_pre.log",
-    "duration_seconds": 7
+    "duration_seconds": 6847
   }
 }
