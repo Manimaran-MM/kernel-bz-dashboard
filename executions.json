@@ -1226,12 +1226,12 @@
     "verification_type": "post",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-180666_post",
     "start_time": "2026-08-01T06:09:28.434892",
-    "status": "running",
-    "end_time": "2026-07-31T04:14:35.695126",
+    "status": "failed",
+    "end_time": "2026-08-01T08:19:07.059247",
     "return_code": 1,
     "reason": "Command exited with return code 1",
     "terminal_log": "data/terminal_output_RHEL-180666_post.log",
-    "duration_seconds": 7829
+    "duration_seconds": 7779
   },
   "RHEL-142100:post": {
     "jira_id": "RHEL-142100",
