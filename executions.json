@@ -1244,7 +1244,7 @@
     "rhbuild": "9.1",
     "verification_type": "post",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-142100_post",
-    "start_time": "2026-08-09T11:15:19.978228",
+    "start_time": "2026-08-09T11:23:19.501136",
     "status": "running",
     "end_time": "2026-08-09T03:56:59.902562",
     "return_code": 1,
