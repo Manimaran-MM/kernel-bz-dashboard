@@ -1263,11 +1263,10 @@
     "verification_type": "post",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-143881_post",
     "start_time": "2026-08-09T13:15:37.853798",
-    "status": "running",
-    "end_time": "2026-08-09T05:48:05.936234",
-    "return_code": 1,
-    "reason": "Command exited with return code 1",
+    "status": "success",
+    "end_time": "2026-08-09T15:08:39.589896",
+    "return_code": 0,
     "terminal_log": "data/terminal_output_RHEL-143881_post.log",
-    "duration_seconds": 6476
+    "duration_seconds": 6782
   }
 }
