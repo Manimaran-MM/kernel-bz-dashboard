@@ -1305,5 +1305,19 @@
     "error": "Command timed out after 6 hours",
     "terminal_log": "data/terminal_output_RHEL-240895_pre.log",
     "duration_seconds": 21602
+  },
+  "RHEL-240892:pre": {
+    "jira_id": "RHEL-240892",
+    "command": "python3 run.py --instances-name 'auto-kernel-jira-RHEL-240892' --log-dir /app/data/logs/kernel-logs/RHEL-240892_pre --log-level 'DEBUG' --cloud 'openstack' --rhbuild '9.1' --platform 'rhel-10' --global-conf 'conf/tentacle/cephfs/kernel-validation/kernel_verification.yaml' --suite 'suites/tentacle/cephfs/kernel-validation/kernel_pre_verification.yaml' --osp-cred 'osp/osp-cred-ci-2.yaml' --inventory 'conf/inventory/rhel-10.2-server-x86_64.yaml' --custom-config pre='https://artifacts.internal.cki-project.org/arr-cki-prod-internal-artifacts/internal-artifacts/2810521295/publish_x86_64/16239631433/artifacts/repo/6.12.0-211.50.1.1756_2810521063.el10_2.x86_64/' --build 'stable' --skip-sos-report --store",
+    "rhosd_kernel": "6.12.0-211.50.1.el10_2",
+    "jira_kernel": "6.12.0-211.50.1.1756_2810521063.el10_2.x86_64",
+    "fix_version": "rhel-10.2.z",
+    "inventory": "conf/inventory/rhel-10.2-server-x86_64.yaml",
+    "platform": "rhel-10",
+    "rhbuild": "9.1",
+    "verification_type": "pre",
+    "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-240892_pre",
+    "start_time": "2026-09-09T15:46:03.087204",
+    "status": "running"
   }
 }
