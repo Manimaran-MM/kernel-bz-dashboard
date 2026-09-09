@@ -1318,6 +1318,11 @@
     "verification_type": "pre",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-240892_pre",
     "start_time": "2026-09-09T15:46:03.087204",
-    "status": "running"
+    "status": "timeout",
+    "end_time": "2026-09-09T21:46:05.914626",
+    "reason": "Command timed out after 6 hours",
+    "error": "Command timed out after 6 hours",
+    "terminal_log": "data/terminal_output_RHEL-240892_pre.log",
+    "duration_seconds": 21603
   }
 }
