@@ -1299,12 +1299,13 @@
     "verification_type": "pre",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-240895_pre",
     "start_time": "2026-09-11T02:23:37.556549",
-    "status": "running",
-    "end_time": "2026-09-09T15:42:50.908733",
-    "reason": "Command timed out after 6 hours",
+    "status": "failed",
+    "end_time": "2026-09-11T02:29:04.027949",
+    "reason": "Command exited with return code 1",
     "error": "Command timed out after 6 hours",
     "terminal_log": "data/terminal_output_RHEL-240895_pre.log",
-    "duration_seconds": 21602
+    "duration_seconds": 326,
+    "return_code": 1
   },
   "RHEL-240892:pre": {
     "jira_id": "RHEL-240892",
