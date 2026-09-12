@@ -1550,6 +1550,11 @@
     "verification_type": "pre",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-237150_pre",
     "start_time": "2026-09-12T03:32:04.001605",
-    "status": "running"
+    "status": "failed",
+    "end_time": "2026-09-12T03:37:32.436567",
+    "return_code": 1,
+    "reason": "Command exited with return code 1",
+    "terminal_log": "data/terminal_output_RHEL-237150_pre.log",
+    "duration_seconds": 328
   }
 }
