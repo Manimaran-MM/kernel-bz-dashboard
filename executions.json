@@ -1515,12 +1515,13 @@
     "verification_type": "pre",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-237157_pre",
     "start_time": "2026-09-13T03:26:19.085950",
-    "status": "running",
-    "end_time": "2026-09-12T03:21:21.900242",
-    "reason": "Command timed out after 6 hours",
+    "status": "failed",
+    "end_time": "2026-09-13T03:32:03.788453",
+    "reason": "Command exited with return code 1",
     "error": "Command timed out after 6 hours",
     "terminal_log": "data/terminal_output_RHEL-237157_pre.log",
-    "duration_seconds": 21602
+    "duration_seconds": 345,
+    "return_code": 1
   },
   "RHEL-237156:pre": {
     "jira_id": "RHEL-237156",
