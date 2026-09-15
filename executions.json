@@ -1394,12 +1394,12 @@
     "verification_type": "pre",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-237486_pre",
     "start_time": "2026-09-15T13:22:32.552441",
-    "status": "running",
-    "end_time": "2026-09-13T02:47:19.742586",
+    "status": "failed",
+    "end_time": "2026-09-15T13:27:59.315504",
     "reason": "Command exited with return code 1",
     "error": "Command timed out after 6 hours",
     "terminal_log": "data/terminal_output_RHEL-237486_pre.log",
-    "duration_seconds": 326,
+    "duration_seconds": 327,
     "return_code": 1
   },
   "RHEL-237472:pre": {
