@@ -1336,12 +1336,12 @@
     "verification_type": "pre",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-237904_pre",
     "start_time": "2026-09-17T02:03:09.109275",
-    "status": "running",
-    "end_time": "2026-09-16T10:34:12.649399",
+    "status": "failed",
+    "end_time": "2026-09-17T02:08:35.112842",
     "return_code": 1,
     "reason": "Command exited with return code 1",
     "terminal_log": "data/terminal_output_RHEL-237904_pre.log",
-    "duration_seconds": 2204
+    "duration_seconds": 326
   },
   "RHEL-237896:pre": {
     "jira_id": "RHEL-237896",
