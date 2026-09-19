@@ -1616,6 +1616,11 @@
     "verification_type": "post",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-177507_post",
     "start_time": "2026-09-19T02:02:32.909280",
-    "status": "running"
+    "status": "failed",
+    "end_time": "2026-09-19T02:15:35.403568",
+    "return_code": 1,
+    "reason": "Command exited with return code 1",
+    "terminal_log": "data/terminal_output_RHEL-177507_post.log",
+    "duration_seconds": 782
   }
 }
