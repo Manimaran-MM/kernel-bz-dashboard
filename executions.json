@@ -1616,11 +1616,11 @@
     "verification_type": "post",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-177507_post",
     "start_time": "2026-09-21T12:47:18.948249",
-    "status": "running",
-    "end_time": "2026-09-21T02:19:19.439371",
+    "status": "failed",
+    "end_time": "2026-09-21T13:03:55.354260",
     "return_code": 1,
     "reason": "Command exited with return code 1",
     "terminal_log": "data/terminal_output_RHEL-177507_post.log",
-    "duration_seconds": 1017
+    "duration_seconds": 996
   }
 }
