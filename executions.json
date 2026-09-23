@@ -1657,8 +1657,7 @@
   },
   "RHEL-240895:post": {
     "jira_id": "RHEL-240895",
-    "status": "running",
-    "reason": "Command exited with return code 1",
+    "status": "success",
     "inventory": "conf/inventory/rhel-10.3-server-x86_64.yaml",
     "platform": "rhel-10",
     "jira_kernel": "6.12.0-264.1.1.1920_2811145730.el10_3.x86_64",
@@ -1669,10 +1668,10 @@
     "rhosd_kernel": "6.12.0-264.1.1.el10_3",
     "rhbuild": "9.1",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-240895_post",
-    "end_time": "2026-09-23T03:43:41.777088",
-    "return_code": 1,
+    "end_time": "2026-09-23T16:10:35.123966",
+    "return_code": 0,
     "terminal_log": "data/terminal_output_RHEL-240895_post.log",
-    "duration_seconds": 806
+    "duration_seconds": 4937
   },
   "RHEL-237891:post": {
     "jira_id": "RHEL-237891",
