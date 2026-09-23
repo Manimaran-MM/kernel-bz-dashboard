@@ -1657,14 +1657,18 @@
   },
   "RHEL-240895:post": {
     "jira_id": "RHEL-240895",
-    "status": "skipped",
+    "status": "running",
     "reason": "No RHOS-D kernel available (N/A)",
     "inventory": "conf/inventory/rhel-10.3-server-x86_64.yaml",
     "platform": "rhel-10",
     "jira_kernel": "6.12.0-264.1.1.1920_2811145730.el10_3.x86_64",
     "fix_version": "rhel-10.3",
     "verification_type": "post",
-    "start_time": "2026-09-22T12:37:23.800798"
+    "start_time": "2026-09-23T03:30:15.635610",
+    "command": "python3 run.py --instances-name 'auto-kernel-jira-RHEL-240895' --log-dir /app/data/logs/kernel-logs/RHEL-240895_post --log-level 'DEBUG' --cloud 'openstack' --rhbuild '9.1' --platform 'rhel-10' --global-conf 'conf/tentacle/cephfs/kernel-validation/kernel_verification.yaml' --suite 'suites/tentacle/cephfs/kernel-validation/kernel_post_verification.yaml' --osp-cred 'osp/osp-cred-ci-2.yaml' --inventory 'conf/inventory/rhel-10.3-server-x86_64.yaml' --custom-config post='https://download2.engineering.redhat.com/brewroot/vol/rhel-10/packages/kernel/6.12.0/264.6.1.el10_3/x86_64/kernel-6.12.0-264.6.1.el10_3.x86_64.rpm' --build 'stable' --skip-sos-report --store",
+    "rhosd_kernel": "6.12.0-264.1.1.el10_3",
+    "rhbuild": "9.1",
+    "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-240895_post"
   },
   "RHEL-237891:post": {
     "jira_id": "RHEL-237891",
