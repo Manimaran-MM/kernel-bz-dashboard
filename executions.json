@@ -1795,5 +1795,19 @@
     "return_code": 0,
     "terminal_log": "data/terminal_output_RHEL-169081_post.log",
     "duration_seconds": 5321
+  },
+  "RHEL-169064:post": {
+    "jira_id": "RHEL-169064",
+    "command": "python3 run.py --instances-name 'auto-kernel-jira-RHEL-169064' --log-dir /app/data/logs/kernel-logs/RHEL-169064_post --log-level 'DEBUG' --cloud 'openstack' --rhbuild '9.1' --platform 'rhel-10' --global-conf 'conf/tentacle/cephfs/kernel-validation/kernel_verification.yaml' --suite 'suites/tentacle/cephfs/kernel-validation/kernel_post_verification.yaml' --osp-cred 'osp/osp-cred-ci-2.yaml' --inventory 'conf/inventory/rhel-10.2-server-x86_64.yaml' --custom-config post='https://download2.engineering.redhat.com/brewroot/vol/rhel-10/packages/kernel/6.12.0/211.60.1.el10_2/x86_64/kernel-6.12.0-211.60.1.el10_2.x86_64.rpm' --build 'stable' --skip-sos-report --store",
+    "rhosd_kernel": "6.12.0-211.7.1.el10_2",
+    "jira_kernel": "6.12.0-211.7.1.946_2459049037.el10_2.x86_64",
+    "fix_version": "rhel-10.2.z",
+    "inventory": "conf/inventory/rhel-10.2-server-x86_64.yaml",
+    "platform": "rhel-10",
+    "rhbuild": "9.1",
+    "verification_type": "post",
+    "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-169064_post",
+    "start_time": "2026-09-24T12:57:50.367768",
+    "status": "running"
   }
 }
