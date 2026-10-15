@@ -1989,6 +1989,10 @@
     "verification_type": "pre",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-237898_pre",
     "start_time": "2026-10-15T04:40:37.416270",
-    "status": "running"
+    "status": "success",
+    "end_time": "2026-10-15T06:00:43.521856",
+    "return_code": 0,
+    "terminal_log": "data/terminal_output_RHEL-237898_pre.log",
+    "duration_seconds": 4806
   }
 }
