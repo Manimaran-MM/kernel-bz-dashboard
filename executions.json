@@ -2143,5 +2143,19 @@
     "reason": "Command exited with return code 1",
     "terminal_log": "data/terminal_output_RHEL-237553_pre.log",
     "duration_seconds": 4854
+  },
+  "RHEL-237162:pre": {
+    "jira_id": "RHEL-237162",
+    "command": "python3 run.py --instances-name 'auto-kernel-jira-RHEL-237162' --log-dir /app/data/logs/kernel-logs/RHEL-237162_pre --log-level 'DEBUG' --cloud 'openstack' --rhbuild '7.1' --platform 'rhel-9' --global-conf 'conf/tentacle/cephfs/kernel-validation/kernel_verification_rhel8_client.yaml' --suite 'suites/tentacle/cephfs/kernel-validation/kernel_pre_verification_rhel8_client.yaml' --osp-cred 'osp/osp-cred-ci-2.yaml' --inventory 'conf/inventory/rhel-9.4-server-x86_64.yaml' --custom-config pre='https://artifacts.internal.cki-project.org/arr-cki-prod-internal-artifacts/internal-artifacts/2925972716/publish_x86_64/17026535946/artifacts/repo/4.18.0-372.221.1.el8_6.11043_2925971949.x86_64/' --build 'stable' --skip-sos-report --store",
+    "rhosd_kernel": "4.18.0-372.46.1.el8_6",
+    "jira_kernel": "4.18.0-372.221.1.el8_6.11043_2925971949.x86_64",
+    "fix_version": "rhel-8.6.0.z",
+    "inventory": "conf/inventory/rhel-9.4-server-x86_64.yaml",
+    "platform": "rhel-9",
+    "rhbuild": "7.1",
+    "verification_type": "pre",
+    "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-237162_pre",
+    "start_time": "2026-10-15T15:54:09.675935",
+    "status": "running"
   }
 }
