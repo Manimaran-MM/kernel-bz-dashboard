@@ -1952,6 +1952,10 @@
     "verification_type": "pre",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-237902_pre",
     "start_time": "2026-10-15T02:03:10.476430",
-    "status": "running"
+    "status": "success",
+    "end_time": "2026-10-15T03:26:31.818471",
+    "return_code": 0,
+    "terminal_log": "data/terminal_output_RHEL-237902_pre.log",
+    "duration_seconds": 5001
   }
 }
