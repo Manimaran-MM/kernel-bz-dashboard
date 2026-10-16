@@ -307,7 +307,7 @@
     "rhbuild": "5.3",
     "verification_type": "pre",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-142088_pre",
-    "start_time": "2026-10-15T02:01:16.878684",
+    "start_time": "2026-10-16T12:43:10.751325",
     "status": "excluded",
     "end_time": "2026-06-04T18:29:11.724770",
     "return_code": 1,
@@ -504,7 +504,7 @@
     "rhbuild": "5.3",
     "verification_type": "pre",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-143869_pre",
-    "start_time": "2026-10-15T02:01:16.878692",
+    "start_time": "2026-10-16T12:43:10.751332",
     "status": "excluded",
     "end_time": "2026-06-04T20:13:16.647027",
     "return_code": 1,
@@ -1916,7 +1916,7 @@
     "jira_kernel": "4.18.0-305.213.1.el8_4.11044_2926032283.x86_64",
     "fix_version": "rhel-8.4.0.z",
     "verification_type": "pre",
-    "start_time": "2026-10-15T02:02:29.497226"
+    "start_time": "2026-10-16T12:44:29.086726"
   },
   "RHEL-237482:pre": {
     "jira_id": "RHEL-237482",
@@ -1927,7 +1927,7 @@
     "jira_kernel": "4.18.0-305.213.1.el8_4.11044_2926032283.x86_64",
     "fix_version": "rhel-8.4.0.z",
     "verification_type": "pre",
-    "start_time": "2026-10-15T02:02:29.497342"
+    "start_time": "2026-10-16T12:44:29.086921"
   },
   "RHEL-237163:pre": {
     "jira_id": "RHEL-237163",
@@ -1938,7 +1938,7 @@
     "jira_kernel": "4.18.0-305.213.1.el8_4.11044_2926032283.x86_64",
     "fix_version": "rhel-8.4.0.z",
     "verification_type": "pre",
-    "start_time": "2026-10-15T02:02:29.497452"
+    "start_time": "2026-10-16T12:44:29.087091"
   },
   "RHEL-237902:pre": {
     "jira_id": "RHEL-237902",
@@ -1969,8 +1969,8 @@
     "rhbuild": "9.1",
     "verification_type": "pre",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-237901_pre",
-    "start_time": "2026-10-15T03:29:44.881352",
-    "status": "failed",
+    "start_time": "2026-10-16T12:45:05.610956",
+    "status": "running",
     "end_time": "2026-10-15T04:37:26.265648",
     "return_code": 1,
     "reason": "Command exited with return code 1",
@@ -2006,11 +2006,11 @@
     "rhbuild": "7.1",
     "verification_type": "pre",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-237888_pre",
-    "start_time": "2026-10-15T06:03:54.786052",
-    "status": "failed",
+    "start_time": "2026-10-16T12:44:29.086836",
+    "status": "skipped",
     "end_time": "2026-10-15T07:01:15.283324",
     "return_code": 1,
-    "reason": "Command exited with return code 1",
+    "reason": "No RHOS-D kernel available (N/A)",
     "terminal_log": "data/terminal_output_RHEL-237888_pre.log",
     "duration_seconds": 3440
   },
@@ -2062,11 +2062,11 @@
     "rhbuild": "7.1",
     "verification_type": "pre",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-237479_pre",
-    "start_time": "2026-10-15T09:53:25.311863",
-    "status": "failed",
+    "start_time": "2026-10-16T12:44:29.087009",
+    "status": "skipped",
     "end_time": "2026-10-15T10:50:04.537548",
     "return_code": 1,
-    "reason": "Command exited with return code 1",
+    "reason": "No RHOS-D kernel available (N/A)",
     "terminal_log": "data/terminal_output_RHEL-237479_pre.log",
     "duration_seconds": 3399
   },
@@ -2155,11 +2155,11 @@
     "rhbuild": "7.1",
     "verification_type": "pre",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-237162_pre",
-    "start_time": "2026-10-15T15:54:09.675935",
-    "status": "failed",
+    "start_time": "2026-10-16T12:44:29.087179",
+    "status": "skipped",
     "end_time": "2026-10-15T16:45:57.744294",
     "return_code": 1,
-    "reason": "Command exited with return code 1",
+    "reason": "No RHOS-D kernel available (N/A)",
     "terminal_log": "data/terminal_output_RHEL-237162_pre.log",
     "duration_seconds": 3108
   },
