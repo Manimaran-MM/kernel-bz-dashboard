@@ -2152,12 +2152,12 @@
     "verification_type": "pre",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-237553_pre",
     "start_time": "2026-10-17T10:16:26.215151",
-    "status": "running",
-    "end_time": "2026-10-16T17:48:14.334297",
+    "status": "failed",
+    "end_time": "2026-10-17T11:26:06.166624",
     "return_code": 1,
     "reason": "Command exited with return code 1",
     "terminal_log": "data/terminal_output_RHEL-237553_pre.log",
-    "duration_seconds": 3999
+    "duration_seconds": 4180
   },
   "RHEL-237162:pre": {
     "jira_id": "RHEL-237162",
