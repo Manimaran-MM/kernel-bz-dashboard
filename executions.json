@@ -2171,12 +2171,11 @@
     "verification_type": "pre",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-237162_pre",
     "start_time": "2026-10-28T17:13:08.638608",
-    "status": "running",
-    "end_time": "2026-10-28T06:28:40.330500",
-    "return_code": 1,
-    "reason": "No RHOS-D kernel available (N/A)",
+    "status": "success",
+    "end_time": "2026-10-28T18:40:16.675319",
+    "return_code": 0,
     "terminal_log": "data/terminal_output_RHEL-237162_pre.log",
-    "duration_seconds": 4153
+    "duration_seconds": 5228
   },
   "RHEL-237161:pre": {
     "jira_id": "RHEL-237161",
