@@ -2083,12 +2083,11 @@
     "verification_type": "pre",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-237479_pre",
     "start_time": "2026-10-28T01:05:42.508226",
-    "status": "running",
-    "end_time": "2026-10-27T10:28:00.292649",
-    "return_code": 1,
-    "reason": "Command exited with return code 1",
+    "status": "success",
+    "end_time": "2026-10-28T02:33:38.540445",
+    "return_code": 0,
     "terminal_log": "data/terminal_output_RHEL-237479_pre.log",
-    "duration_seconds": 5180
+    "duration_seconds": 5276
   },
   "RHEL-237478:pre": {
     "jira_id": "RHEL-237478",
