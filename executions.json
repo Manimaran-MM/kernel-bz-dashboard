@@ -1927,8 +1927,7 @@
   },
   "RHEL-237482:pre": {
     "jira_id": "RHEL-237482",
-    "status": "running",
-    "reason": "Command exited with return code 1",
+    "status": "success",
     "inventory": "conf/inventory/rhel-9.4-server-x86_64.yaml",
     "platform": "rhel-9",
     "jira_kernel": "4.18.0-305.213.1.el8_4.11044_2926032283.x86_64",
@@ -1939,10 +1938,10 @@
     "rhosd_kernel": "4.18.0-305.81.1.el8_4",
     "rhbuild": "7.1",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-237482_pre",
-    "end_time": "2026-10-27T08:58:29.068404",
-    "return_code": 1,
+    "end_time": "2026-10-28T01:02:30.852429",
+    "return_code": 0,
     "terminal_log": "data/terminal_output_RHEL-237482_pre.log",
-    "duration_seconds": 5158
+    "duration_seconds": 5623
   },
   "RHEL-237163:pre": {
     "jira_id": "RHEL-237163",
