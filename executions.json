@@ -2272,6 +2272,10 @@
     "verification_type": "post",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-237479_post",
     "start_time": "2026-10-30T19:48:57.525374",
-    "status": "running"
+    "status": "success",
+    "end_time": "2026-10-30T21:30:36.074640",
+    "return_code": 0,
+    "terminal_log": "data/terminal_output_RHEL-237479_post.log",
+    "duration_seconds": 6099
   }
 }
