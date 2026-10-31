@@ -307,7 +307,7 @@
     "rhbuild": "5.3",
     "verification_type": "pre",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-142088_pre",
-    "start_time": "2026-10-30T18:35:54.365437",
+    "start_time": "2026-10-31T02:00:14.710222",
     "status": "excluded",
     "end_time": "2026-06-04T18:29:11.724770",
     "return_code": 1,
@@ -504,7 +504,7 @@
     "rhbuild": "5.3",
     "verification_type": "pre",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-143869_pre",
-    "start_time": "2026-10-30T18:35:54.365447",
+    "start_time": "2026-10-31T02:00:14.710230",
     "status": "excluded",
     "end_time": "2026-06-04T20:13:16.647027",
     "return_code": 1,
@@ -2239,7 +2239,7 @@
     "platform": "rhel-10",
     "fix_version": "rhel-10.4",
     "verification_type": "pre",
-    "start_time": "2026-10-30T18:36:26.331792"
+    "start_time": "2026-10-31T02:00:45.819395"
   },
   "RHEL-237888:post": {
     "jira_id": "RHEL-237888",
@@ -2252,8 +2252,8 @@
     "rhbuild": "7.1",
     "verification_type": "post",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-237888_post",
-    "start_time": "2026-10-30T18:37:05.861502",
-    "status": "failed",
+    "start_time": "2026-10-31T02:01:25.318661",
+    "status": "running",
     "end_time": "2026-10-30T19:45:48.142706",
     "return_code": 1,
     "reason": "Command exited with return code 1",
