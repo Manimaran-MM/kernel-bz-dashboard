@@ -2255,12 +2255,11 @@
     "verification_type": "post",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-237888_post",
     "start_time": "2026-11-01T02:01:26.305286",
-    "status": "running",
-    "end_time": "2026-10-31T03:12:30.482843",
-    "return_code": 1,
-    "reason": "Not required to test as it will be cleaned up as no further release planned for 8.6",
+    "status": "success",
+    "end_time": "2026-11-01T03:41:15.032442",
+    "return_code": 0,
     "terminal_log": "data/terminal_output_RHEL-237888_post.log",
-    "duration_seconds": 4265
+    "duration_seconds": 5989
   },
   "RHEL-237479:post": {
     "jira_id": "RHEL-237479",
