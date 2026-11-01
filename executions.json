@@ -2292,12 +2292,11 @@
     "verification_type": "post",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-237162_post",
     "start_time": "2026-11-01T03:44:24.934522",
-    "status": "running",
-    "end_time": "2026-11-01T02:02:35.968043",
-    "return_code": 1,
-    "reason": "Command exited with return code 1",
+    "status": "success",
+    "end_time": "2026-11-01T05:22:52.174329",
+    "return_code": 0,
     "terminal_log": "data/terminal_output_RHEL-237162_post.log",
-    "duration_seconds": 15,
+    "duration_seconds": 5907,
     "baseline_image": "https://download.devel.redhat.com/rhel-8/rel-eng/RHEL-8/latest-RHEL-8.6/compose/BaseOS/x86_64/images/rhel-guest-image-8.6-1726.x86_64.qcow2"
   }
 }
