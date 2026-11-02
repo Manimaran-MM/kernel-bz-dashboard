@@ -117,17 +117,17 @@
     "platform": "rhel-10",
     "jira_kernel": "6.12.0-264.4.1.2224_2852799666.el10_3.x86_64",
     "verification_type": "pre",
-    "start_time": "2026-11-02T10:56:07.553803",
+    "start_time": "2026-11-02T16:59:02.351739",
     "fix_version": "rhel-10.3.z",
     "command": "python3 run.py --instances-name 'auto-kernel-jira-RHEL-142103' --log-dir /app/data/logs/kernel-logs/RHEL-142103_pre --log-level 'DEBUG' --cloud 'ocpvirt' --rhbuild '9.2' --platform 'rhel-10' --global-conf 'conf/tentacle/cephfs/kernel-validation/kernel_verification.yaml' --suite 'suites/tentacle/cephfs/kernel-validation/kernel_pre_verification.yaml' --osp-cred 'ocpvirt/osp-cred-ocpvirt.yaml' --inventory 'conf/inventory/ocpvirt-rhel-10-latest.yaml' --custom-config ocpvirt_namespace='rdu3_ceph_jenkins' --custom-config ocpvirt_profile='o1.large' --custom-config pre='https://artifacts.internal.cki-project.org/arr-cki-prod-internal-artifacts/internal-artifacts/2852799869/publish_x86_64/16525594921/artifacts/repo/6.12.0-264.4.1.2224_2852799666.el10_3.x86_64/' --build 'stable' --skip-sos-report --store",
-    "rhosd_kernel": "https://download.devel.redhat.com/rhel-10/rel-eng/RHEL-10/latest-RHEL-10.2/compose/BaseOS/x86_64/images/rhel-guest-image-10.2-20260408.1.x86_64.qcow2",
+    "rhosd_kernel": "datasource://ceph-jenkins--runtime-int/rhel102-iso-custom",
     "rhbuild": "9.2",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-142103_pre",
     "end_time": "2026-06-11T16:24:16.809102",
     "return_code": 0,
     "terminal_log": "data/terminal_output_RHEL-142103_pre.log",
     "duration_seconds": 6241,
-    "baseline_image": "https://download.devel.redhat.com/rhel-10/rel-eng/RHEL-10/latest-RHEL-10.2/compose/BaseOS/x86_64/images/rhel-guest-image-10.2-20260408.1.x86_64.qcow2"
+    "baseline_image": "datasource://ceph-jenkins--runtime-int/rhel102-iso-custom"
   },
   "RHEL-142099:pre": {
     "jira_id": "RHEL-142099",
@@ -308,7 +308,7 @@
     "rhbuild": "5.3",
     "verification_type": "pre",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-142088_pre",
-    "start_time": "2026-11-02T10:55:31.262361",
+    "start_time": "2026-11-02T16:53:38.352415",
     "status": "excluded",
     "end_time": "2026-06-04T18:29:11.724770",
     "return_code": 1,
@@ -505,7 +505,7 @@
     "rhbuild": "5.3",
     "verification_type": "pre",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-143869_pre",
-    "start_time": "2026-11-02T10:55:31.262370",
+    "start_time": "2026-11-02T16:53:38.352419",
     "status": "excluded",
     "end_time": "2026-06-04T20:13:16.647027",
     "return_code": 1,
@@ -2237,12 +2237,13 @@
   "RHEL-81417:pre": {
     "jira_id": "RHEL-81417",
     "status": "skipped",
-    "reason": "No valid OCPVirt baseline (unmapped RHEL, missing compose kernel, or baseline kernel >= JIRA kernel)",
+    "reason": "Baseline not met: no_jira_kernel",
     "inventory": "conf/inventory/ocpvirt-rhel-10-latest.yaml",
     "platform": "rhel-10",
     "fix_version": "rhel-10.4",
     "verification_type": "pre",
-    "start_time": "2026-11-02T10:55:37.536262"
+    "start_time": "2026-11-02T16:58:28.428345",
+    "baseline_datasource": "datasource://rhel10"
   },
   "RHEL-237888:post": {
     "jira_id": "RHEL-237888",
