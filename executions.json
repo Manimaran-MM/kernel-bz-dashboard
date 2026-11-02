@@ -111,8 +111,8 @@
   },
   "RHEL-142103:pre": {
     "jira_id": "RHEL-142103",
-    "status": "running",
-    "reason": "Not required to test as it will be cleaned up as no further release planned for 10.1",
+    "status": "failed",
+    "reason": "Command exited with return code 1",
     "inventory": "conf/inventory/ocpvirt-rhel-10-latest.yaml",
     "platform": "rhel-10",
     "jira_kernel": "6.12.0-264.4.1.2224_2852799666.el10_3.x86_64",
@@ -123,10 +123,10 @@
     "rhosd_kernel": "datasource://ceph-jenkins--runtime-int/rhel102-iso-custom",
     "rhbuild": "9.2",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-142103_pre",
-    "end_time": "2026-06-11T16:24:16.809102",
-    "return_code": 0,
+    "end_time": "2026-11-02T17:31:04.702329",
+    "return_code": 1,
     "terminal_log": "data/terminal_output_RHEL-142103_pre.log",
-    "duration_seconds": 6241,
+    "duration_seconds": 1922,
     "baseline_image": "datasource://ceph-jenkins--runtime-int/rhel102-iso-custom"
   },
   "RHEL-142099:pre": {
