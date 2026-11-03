@@ -2302,5 +2302,20 @@
     "terminal_log": "data/terminal_output_RHEL-237162_post.log",
     "duration_seconds": 5907,
     "baseline_image": "https://download.devel.redhat.com/rhel-8/rel-eng/RHEL-8/latest-RHEL-8.6/compose/BaseOS/x86_64/images/rhel-guest-image-8.6-1726.x86_64.qcow2"
+  },
+  "RHEL-292766:pre": {
+    "jira_id": "RHEL-292766",
+    "command": "python3 run.py --instances-name 'mani-kernel-jira-RHEL-292766' --log-dir /app/data/logs/kernel-logs/RHEL-292766_pre --log-level 'DEBUG' --cloud 'ocpvirt' --rhbuild '9.1' --platform 'rhel-9' --global-conf 'conf/tentacle/cephfs/kernel-validation/kernel_verification.yaml' --suite 'suites/tentacle/cephfs/kernel-validation/kernel_pre_verification.yaml' --osp-cred 'ocpvirt/osp-cred-ocpvirt.yaml' --custom-config ocpvirt_namespace='rdu3_ceph_jenkins' --custom-config ocpvirt_profile='o1.large' --custom-config pre='https://artifacts.internal.cki-project.org/arr-cki-prod-internal-artifacts/internal-artifacts/3018927534/publish_x86_64/17673445539/artifacts/repo/5.14.0-687.65.1.8586_3018927269.el9_8.x86_64/' --build 'stable' --skip-sos-report --store --inventory 'conf/inventory/ocpvirt-rhel-9.8.yaml'",
+    "baseline_image": "datasource://ceph-jenkins--runtime-int/rhel98-iso-custom",
+    "rhosd_kernel": "datasource://ceph-jenkins--runtime-int/rhel98-iso-custom",
+    "jira_kernel": "5.14.0-687.65.1.8586_3018927269.el9_8.x86_64",
+    "fix_version": "rhel-9.8.z",
+    "inventory": "conf/inventory/ocpvirt-rhel-9.8.yaml",
+    "platform": "rhel-9",
+    "rhbuild": "9.1",
+    "verification_type": "pre",
+    "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/ocp/RHEL-292766_pre",
+    "start_time": "2026-11-03T17:13:47.202754",
+    "status": "running"
   }
 }
