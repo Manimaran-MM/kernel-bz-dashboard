@@ -12,11 +12,11 @@
     "verification_type": "pre",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/ocp/RHEL-292766_pre",
     "start_time": "2026-11-05T13:56:06.076573",
-    "status": "running",
-    "end_time": "2026-11-05T11:52:01.808291",
+    "status": "failed",
+    "end_time": "2026-11-05T15:24:27.815668",
     "return_code": 1,
     "reason": "Command exited with return code 1",
     "terminal_log": "data/terminal_output_RHEL-292766_pre.log",
-    "duration_seconds": 5393
+    "duration_seconds": 5302
   }
 }
