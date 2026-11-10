@@ -2381,5 +2381,20 @@
     "reason": "Command exited with return code 1",
     "terminal_log": "data/terminal_output_RHEL-302830_pre.log",
     "duration_seconds": 3350
+  },
+  "RHEL-302828:pre": {
+    "jira_id": "RHEL-302828",
+    "command": "python3 run.py --instances-name 'mani-kernel-jira-RHEL-302828' --log-dir /app/data/logs/kernel-logs/RHEL-302828_pre --log-level 'DEBUG' --cloud 'ocpvirt' --rhbuild '9.2' --platform 'rhel-10' --global-conf 'conf/tentacle/cephfs/kernel-validation/kernel_verification.yaml' --suite 'suites/tentacle/cephfs/kernel-validation/kernel_pre_verification.yaml' --osp-cred 'ocpvirt/osp-cred-ocpvirt.yaml' --inventory 'conf/inventory/ocpvirt-rhel-10-latest.yaml' --custom-config ocpvirt_namespace='rdu3_ceph_jenkins' --custom-config ocpvirt_profile='o1.large' --custom-config ocpvirt_secure_boot='false' --custom-config pre='https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/trusted-artifacts/3037302454/publish_x86_64/17811616605/artifacts/repo/6.12.0-281.3959_3037302071.el10.x86_64/' --build 'stable' --skip-sos-report --store",
+    "baseline_image": "datasource://rhel10",
+    "rhosd_kernel": "datasource://rhel10",
+    "jira_kernel": "6.12.0-281.3959_3037302071.el10.x86_64",
+    "fix_version": "rhel-10.4",
+    "inventory": "conf/inventory/ocpvirt-rhel-10-latest.yaml",
+    "platform": "rhel-10",
+    "rhbuild": "9.2",
+    "verification_type": "pre",
+    "log_dir": "manual/manim/kernel-logs-ocp/RHEL-302828_pre_20261110-185813",
+    "start_time": "2026-11-10T18:58:13.819584",
+    "status": "running"
   }
 }
