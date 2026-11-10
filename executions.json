@@ -309,7 +309,7 @@
     "rhbuild": "5.3",
     "verification_type": "pre",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-142088_pre",
-    "start_time": "2026-11-02T16:53:38.352415",
+    "start_time": "2026-11-10T17:42:23.383192",
     "status": "excluded",
     "end_time": "2026-06-04T18:29:11.724770",
     "return_code": 1,
@@ -506,7 +506,7 @@
     "rhbuild": "5.3",
     "verification_type": "pre",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-143869_pre",
-    "start_time": "2026-11-02T16:53:38.352419",
+    "start_time": "2026-11-10T17:42:23.383195",
     "status": "excluded",
     "end_time": "2026-06-04T20:13:16.647027",
     "return_code": 1,
@@ -2243,7 +2243,7 @@
     "platform": "rhel-10",
     "fix_version": "rhel-10.4",
     "verification_type": "pre",
-    "start_time": "2026-11-02T16:58:28.428345",
+    "start_time": "2026-11-10T18:00:32.936360",
     "baseline_datasource": "datasource://rhel10"
   },
   "RHEL-237888:post": {
@@ -2322,5 +2322,59 @@
     "reason": "Command exited with return code 1",
     "terminal_log": "data/terminal_output_RHEL-292766_pre.log",
     "duration_seconds": 1586
+  },
+  "RHEL-237890:post": {
+    "jira_id": "RHEL-237890",
+    "status": "skipped",
+    "reason": "Baseline not met: datasource://rhel810 kernel 4.18.0-553.el8_10 >= JIRA kernel 4.18.0-305.213.1.el8_4.11044_2926032283.x86_64",
+    "inventory": "conf/inventory/ocpvirt-rhel-9.4.yaml",
+    "platform": "rhel-9",
+    "jira_kernel": "4.18.0-305.213.1.el8_4.11044_2926032283.x86_64",
+    "fix_version": "rhel-8.4.0.z",
+    "verification_type": "post",
+    "baseline_datasource": "datasource://rhel810",
+    "baseline_kernel": "4.18.0-553.el8_10",
+    "start_time": "2026-11-10T18:00:32.936522"
+  },
+  "RHEL-237482:post": {
+    "jira_id": "RHEL-237482",
+    "status": "skipped",
+    "reason": "Baseline not met: datasource://rhel810 kernel 4.18.0-553.el8_10 >= JIRA kernel 4.18.0-305.213.1.el8_4.11044_2926032283.x86_64",
+    "inventory": "conf/inventory/ocpvirt-rhel-9.4.yaml",
+    "platform": "rhel-9",
+    "jira_kernel": "4.18.0-305.213.1.el8_4.11044_2926032283.x86_64",
+    "fix_version": "rhel-8.4.0.z",
+    "verification_type": "post",
+    "baseline_datasource": "datasource://rhel810",
+    "baseline_kernel": "4.18.0-553.el8_10",
+    "start_time": "2026-11-10T18:00:32.936669"
+  },
+  "RHEL-237163:post": {
+    "jira_id": "RHEL-237163",
+    "status": "skipped",
+    "reason": "Baseline not met: datasource://rhel810 kernel 4.18.0-553.el8_10 >= JIRA kernel 4.18.0-305.213.1.el8_4.11044_2926032283.x86_64",
+    "inventory": "conf/inventory/ocpvirt-rhel-9.4.yaml",
+    "platform": "rhel-9",
+    "jira_kernel": "4.18.0-305.213.1.el8_4.11044_2926032283.x86_64",
+    "fix_version": "rhel-8.4.0.z",
+    "verification_type": "post",
+    "baseline_datasource": "datasource://rhel810",
+    "baseline_kernel": "4.18.0-553.el8_10",
+    "start_time": "2026-11-10T18:00:32.936818"
+  },
+  "RHEL-302830:pre": {
+    "jira_id": "RHEL-302830",
+    "command": "python3 run.py --instances-name 'mani-kernel-jira-RHEL-302830' --log-dir /app/data/logs/kernel-logs/RHEL-302830_pre --log-level 'DEBUG' --cloud 'ocpvirt' --rhbuild '9.1' --platform 'rhel-9' --global-conf 'conf/tentacle/cephfs/kernel-validation/kernel_verification.yaml' --suite 'suites/tentacle/cephfs/kernel-validation/kernel_pre_verification.yaml' --osp-cred 'ocpvirt/osp-cred-ocpvirt.yaml' --custom-config ocpvirt_namespace='rdu3_ceph_jenkins' --custom-config ocpvirt_profile='o1.large' --custom-config ocpvirt_secure_boot='false' --custom-config pre='https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/trusted-artifacts/3037317789/publish_x86_64/17811739922/artifacts/repo/5.14.0-762.9150_3037317423.el9.x86_64/' --build 'stable' --skip-sos-report --store --inventory 'conf/inventory/ocpvirt-rhel-9.0.yaml'",
+    "baseline_image": "datasource://ceph-jenkins--runtime-int/rhel90-iso-custom",
+    "rhosd_kernel": "datasource://ceph-jenkins--runtime-int/rhel90-iso-custom",
+    "jira_kernel": "5.14.0-762.9150_3037317423.el9.x86_64",
+    "fix_version": "rhel-9.10",
+    "inventory": "conf/inventory/ocpvirt-rhel-9.0.yaml",
+    "platform": "rhel-9",
+    "rhbuild": "9.1",
+    "verification_type": "pre",
+    "log_dir": "manual/manim/kernel-logs-ocp/RHEL-302830_pre_20261110-180119",
+    "start_time": "2026-11-10T18:01:19.293660",
+    "status": "running"
   }
 }
