@@ -2440,5 +2440,20 @@
     "reason": "Command exited with return code 1",
     "terminal_log": "data/terminal_output_RHEL-299717_pre.log",
     "duration_seconds": 2889
+  },
+  "RHEL-292786:pre": {
+    "jira_id": "RHEL-292786",
+    "command": "python3 run.py --instances-name 'mani-kernel-jira-RHEL-292786' --log-dir /app/data/logs/kernel-logs/RHEL-292786_pre --log-level 'DEBUG' --cloud 'ocpvirt' --rhbuild '9.1' --platform 'rhel-9' --global-conf 'conf/tentacle/cephfs/kernel-validation/kernel_verification.yaml' --suite 'suites/tentacle/cephfs/kernel-validation/kernel_pre_verification.yaml' --osp-cred 'ocpvirt/osp-cred-ocpvirt.yaml' --custom-config ocpvirt_namespace='rdu3_ceph_jenkins' --custom-config ocpvirt_profile='o1.large' --custom-config ocpvirt_secure_boot='false' --custom-config pre='https://artifacts.internal.cki-project.org/arr-cki-prod-internal-artifacts/internal-artifacts/2999580502/publish_x86_64/17542471380/artifacts/repo/5.14.0-741.18.1.8496_2999579575.el9_9.x86_64/' --build 'stable' --skip-sos-report --store --inventory 'conf/inventory/ocpvirt-rhel-9.9.yaml'",
+    "baseline_image": "datasource://ceph-jenkins--runtime-int/rhel99-iso-custom",
+    "rhosd_kernel": "datasource://ceph-jenkins--runtime-int/rhel99-iso-custom",
+    "jira_kernel": "5.14.0-741.18.1.8496_2999579575.el9_9.x86_64",
+    "fix_version": "rhel-9.9.z",
+    "inventory": "conf/inventory/ocpvirt-rhel-9.9.yaml",
+    "platform": "rhel-9",
+    "rhbuild": "9.1",
+    "verification_type": "pre",
+    "log_dir": "manual/manim/kernel-logs-ocp/RHEL-292786_pre_20261111-004219",
+    "start_time": "2026-11-11T00:42:19.982604",
+    "status": "running"
   }
 }
