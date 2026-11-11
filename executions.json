@@ -2510,8 +2510,8 @@
     "platform": "rhel-9",
     "rhbuild": "7.1",
     "verification_type": "pre",
-    "log_dir": "manual/manim/kernel-logs-ocp/RHEL-292778_pre_20261111-064442",
-    "start_time": "2026-11-11T06:44:42.787442",
+    "log_dir": "manual/manim/kernel-logs-ocp/RHEL-292778_pre_20261111-192300",
+    "start_time": "2026-11-11T19:23:00.561764",
     "status": "running"
   }
 }
