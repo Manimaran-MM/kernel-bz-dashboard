@@ -2434,12 +2434,12 @@
     "verification_type": "pre",
     "log_dir": "manual/manim/kernel-logs-ocp/RHEL-299717_pre_20261111-172726",
     "start_time": "2026-11-11T17:27:26.852514",
-    "status": "running",
-    "end_time": "2026-11-11T00:41:16.190280",
+    "status": "failed",
+    "end_time": "2026-11-11T18:22:42.857671",
     "return_code": 1,
     "reason": "Command exited with return code 1",
     "terminal_log": "data/terminal_output_RHEL-299717_pre.log",
-    "duration_seconds": 2889
+    "duration_seconds": 3316
   },
   "RHEL-292786:pre": {
     "jira_id": "RHEL-292786",
