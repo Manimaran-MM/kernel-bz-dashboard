@@ -2498,5 +2498,20 @@
     "reason": "Command exited with return code 1",
     "terminal_log": "data/terminal_output_RHEL-292781_pre.log",
     "duration_seconds": 3672
+  },
+  "RHEL-292778:pre": {
+    "jira_id": "RHEL-292778",
+    "command": "python3 run.py --instances-name 'mani-kernel-jira-RHEL-292778' --log-dir /app/data/logs/kernel-logs/RHEL-292778_pre --log-level 'DEBUG' --cloud 'ocpvirt' --rhbuild '7.1' --platform 'rhel-9' --global-conf 'conf/tentacle/cephfs/kernel-validation/kernel_verification_rhel8_client.yaml' --suite 'suites/tentacle/cephfs/kernel-validation/kernel_pre_verification_rhel8_client.yaml' --osp-cred 'ocpvirt/osp-cred-ocpvirt.yaml' --inventory 'conf/inventory/ocpvirt-rhel-9.4.yaml' --custom-config ocpvirt_namespace='rdu3_ceph_jenkins' --custom-config ocpvirt_profile='o1.large' --custom-config ocpvirt_secure_boot='false' --custom-config pre='https://artifacts.internal.cki-project.org/arr-cki-prod-internal-artifacts/internal-artifacts/3017062986/publish_x86_64/17658977387/artifacts/repo/4.18.0-553.179.1.el8_10.11273_2993226323.x86_64/' --build 'z9' --skip-sos-report --store",
+    "baseline_image": "datasource://rhel810",
+    "rhosd_kernel": "datasource://rhel810",
+    "jira_kernel": "4.18.0-553.179.1.el8_10.11273_2993226323.x86_64",
+    "fix_version": "rhel-8.10.z",
+    "inventory": "conf/inventory/ocpvirt-rhel-9.4.yaml",
+    "platform": "rhel-9",
+    "rhbuild": "7.1",
+    "verification_type": "pre",
+    "log_dir": "manual/manim/kernel-logs-ocp/RHEL-292778_pre_20261111-064442",
+    "start_time": "2026-11-11T06:44:42.787442",
+    "status": "running"
   }
 }
