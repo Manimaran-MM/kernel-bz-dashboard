@@ -2316,12 +2316,11 @@
     "verification_type": "pre",
     "log_dir": "manual/manim/kernel-logs-ocp/RHEL-292766_pre_20261111-213120",
     "start_time": "2026-11-11T21:31:20.866667",
-    "status": "running",
-    "end_time": "2026-11-10T14:50:22.475906",
-    "return_code": 1,
-    "reason": "Command exited with return code 1",
+    "status": "success",
+    "end_time": "2026-11-12T01:26:48.150458",
+    "return_code": 0,
     "terminal_log": "data/terminal_output_RHEL-292766_pre.log",
-    "duration_seconds": 1586
+    "duration_seconds": 14127
   },
   "RHEL-237890:post": {
     "jira_id": "RHEL-237890",
