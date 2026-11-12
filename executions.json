@@ -2629,6 +2629,11 @@
     "verification_type": "pre",
     "log_dir": "manual/manim/kernel-logs-ocp/RHEL-237475_pre_20261112-084908",
     "start_time": "2026-11-12T08:49:08.690159",
-    "status": "running"
+    "status": "failed",
+    "end_time": "2026-11-12T09:58:58.520463",
+    "return_code": 1,
+    "reason": "Command exited with return code 1",
+    "terminal_log": "data/terminal_output_RHEL-237475_pre.log",
+    "duration_seconds": 4190
   }
 }
