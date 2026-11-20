@@ -309,7 +309,7 @@
     "rhbuild": "5.3",
     "verification_type": "pre",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-142088_pre",
-    "start_time": "2026-11-14T12:06:07.516026",
+    "start_time": "2026-11-20T12:27:34.561033",
     "status": "excluded",
     "end_time": "2026-06-04T18:29:11.724770",
     "return_code": 1,
@@ -506,7 +506,7 @@
     "rhbuild": "5.3",
     "verification_type": "pre",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-143869_pre",
-    "start_time": "2026-11-14T12:06:07.516034",
+    "start_time": "2026-11-20T12:27:34.561041",
     "status": "excluded",
     "end_time": "2026-06-04T20:13:16.647027",
     "return_code": 1,
@@ -2243,7 +2243,7 @@
     "platform": "rhel-10",
     "fix_version": "rhel-10.4",
     "verification_type": "pre",
-    "start_time": "2026-11-14T12:10:26.513692",
+    "start_time": "2026-11-20T12:38:32.266756",
     "baseline_datasource": "datasource://rhel10"
   },
   "RHEL-237888:post": {
@@ -2714,5 +2714,30 @@
     "return_code": 0,
     "terminal_log": "data/terminal_output_RHEL-264075_pre.log",
     "duration_seconds": 9003
+  },
+  "RHEL-237483:pre": {
+    "jira_id": "RHEL-237483",
+    "status": "skipped",
+    "reason": "Baseline not met: no_datasource_mapping",
+    "platform": "rhel-9",
+    "jira_kernel": "5.14.0-741.1.1.7219_2811171106.el9_9.x86_64",
+    "fix_version": "rhel-9.9.z",
+    "verification_type": "pre",
+    "start_time": "2026-11-20T12:38:32.266907"
+  },
+  "RHEL-299995:pre": {
+    "jira_id": "RHEL-299995",
+    "command": "python3 run.py --instances-name 'mani-kernel-jira-RHEL-299995' --log-dir /app/data/logs/kernel-logs/RHEL-299995_pre --log-level 'DEBUG' --cloud 'ocpvirt' --rhbuild '9.2' --platform 'rhel-10' --global-conf 'conf/tentacle/cephfs/kernel-validation/kernel_verification.yaml' --suite 'suites/tentacle/cephfs/kernel-validation/kernel_pre_verification.yaml' --osp-cred 'ocpvirt/osp-cred-ocpvirt.yaml' --inventory 'conf/inventory/ocpvirt-rhel-10-latest.yaml' --custom-config ocpvirt_namespace='rdu3_ceph_jenkins' --custom-config ocpvirt_profile='o1.large' --custom-config ocpvirt_secure_boot='false' --custom-config pre='https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/trusted-artifacts/3023529764/publish_x86_64/17707455976/artifacts/repo/6.12.0-280.3913_3023529233.el10.x86_64/' --build 'stable' --skip-sos-report --store",
+    "baseline_image": "datasource://rhel10",
+    "rhosd_kernel": "datasource://rhel10",
+    "jira_kernel": "6.12.0-280.3913_3023529233.el10.x86_64",
+    "fix_version": "rhel-10.4",
+    "inventory": "conf/inventory/ocpvirt-rhel-10-latest.yaml",
+    "platform": "rhel-10",
+    "rhbuild": "9.2",
+    "verification_type": "pre",
+    "log_dir": "manual/manim/kernel-logs-ocp/RHEL-299995_pre_20261120-123902",
+    "start_time": "2026-11-20T12:39:02.053264",
+    "status": "running"
   }
 }
