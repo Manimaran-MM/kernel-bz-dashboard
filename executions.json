@@ -3032,8 +3032,8 @@
     "platform": "rhel-9",
     "rhbuild": "9.1",
     "verification_type": "pre",
-    "log_dir": "manual/manim/kernel-logs-ocp/RHEL-227080_pre_20261121-153855",
-    "start_time": "2026-11-21T15:38:55.516637",
+    "log_dir": "manual/manim/kernel-logs-ocp/RHEL-227080_pre_20261121-220918",
+    "start_time": "2026-11-21T22:09:18.360721",
     "status": "running"
   },
   "RHEL-227071:pre": {
