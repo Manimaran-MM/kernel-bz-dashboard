@@ -2853,8 +2853,8 @@
     "platform": "rhel-9",
     "rhbuild": "9.1",
     "verification_type": "pre",
-    "log_dir": "manual/manim/kernel-logs-ocp/RHEL-300021_pre_20261120-150508",
-    "start_time": "2026-11-20T15:05:08.941924",
+    "log_dir": "manual/manim/kernel-logs-ocp/RHEL-300021_pre_20261121-033938",
+    "start_time": "2026-11-21T03:39:38.679657",
     "status": "running"
   }
 }
