@@ -2894,6 +2894,10 @@
     "verification_type": "pre",
     "log_dir": "manual/manim/kernel-logs-ocp/RHEL-300018_pre_20261121-073806",
     "start_time": "2026-11-21T07:38:06.487780",
-    "status": "running"
+    "status": "success",
+    "end_time": "2026-11-21T09:39:12.919262",
+    "return_code": 0,
+    "terminal_log": "data/terminal_output_RHEL-300018_pre.log",
+    "duration_seconds": 7266
   }
 }
