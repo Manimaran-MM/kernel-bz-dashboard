@@ -309,7 +309,7 @@
     "rhbuild": "5.3",
     "verification_type": "pre",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-142088_pre",
-    "start_time": "2026-11-20T15:14:11.318641",
+    "start_time": "2026-11-21T15:56:19.395427",
     "status": "excluded",
     "end_time": "2026-06-04T18:29:11.724770",
     "return_code": 1,
@@ -506,7 +506,7 @@
     "rhbuild": "5.3",
     "verification_type": "pre",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-143869_pre",
-    "start_time": "2026-11-20T15:14:11.318646",
+    "start_time": "2026-11-21T15:56:19.395433",
     "status": "excluded",
     "end_time": "2026-06-04T20:13:16.647027",
     "return_code": 1,
@@ -2243,7 +2243,7 @@
     "platform": "rhel-10",
     "fix_version": "rhel-10.4",
     "verification_type": "pre",
-    "start_time": "2026-11-20T15:23:30.717753",
+    "start_time": "2026-11-21T16:00:22.635617",
     "baseline_datasource": "datasource://rhel10"
   },
   "RHEL-237888:post": {
@@ -2510,13 +2510,14 @@
     "rhbuild": "7.1",
     "verification_type": "pre",
     "log_dir": "manual/manim/kernel-logs-ocp/RHEL-292778_pre_20261114-185357",
-    "start_time": "2026-11-14T18:53:57.876853",
-    "status": "failed",
+    "start_time": "2026-11-21T16:00:22.637392",
+    "status": "skipped",
     "end_time": "2026-11-14T18:54:02.497510",
     "return_code": 1,
-    "reason": "Command exited with return code 1",
+    "reason": "Baseline not met: no_compose_kernel",
     "terminal_log": "data/terminal_output_RHEL-292778_pre.log",
-    "duration_seconds": 5
+    "duration_seconds": 5,
+    "baseline_datasource": "datasource://rhel8"
   },
   "RHEL-292771:pre": {
     "jira_id": "RHEL-292771",
@@ -2588,13 +2589,14 @@
     "rhbuild": "7.1",
     "verification_type": "pre",
     "log_dir": "manual/manim/kernel-logs-ocp/RHEL-237903_pre_20261114-191419",
-    "start_time": "2026-11-14T19:14:19.709989",
-    "status": "failed",
+    "start_time": "2026-11-21T16:00:22.637662",
+    "status": "skipped",
     "end_time": "2026-11-14T19:46:24.161646",
     "return_code": 1,
-    "reason": "Command exited with return code 1",
+    "reason": "Baseline not met: no_compose_kernel",
     "terminal_log": "data/terminal_output_RHEL-237903_pre.log",
-    "duration_seconds": 1924
+    "duration_seconds": 1924,
+    "baseline_datasource": "datasource://rhel8"
   },
   "RHEL-270689:pre": {
     "jira_id": "RHEL-270689",
@@ -2628,13 +2630,14 @@
     "rhbuild": "7.1",
     "verification_type": "pre",
     "log_dir": "manual/manim/kernel-logs-ocp/RHEL-237475_pre_20261114-200853",
-    "start_time": "2026-11-14T20:08:53.440646",
-    "status": "failed",
+    "start_time": "2026-11-21T16:00:22.637780",
+    "status": "skipped",
     "end_time": "2026-11-14T20:41:03.324207",
     "return_code": 1,
-    "reason": "Command exited with return code 1",
+    "reason": "Baseline not met: no_compose_kernel",
     "terminal_log": "data/terminal_output_RHEL-237475_pre.log",
-    "duration_seconds": 1930
+    "duration_seconds": 1930,
+    "baseline_datasource": "datasource://rhel8"
   },
   "RHEL-237153:pre": {
     "jira_id": "RHEL-237153",
@@ -2668,13 +2671,14 @@
     "rhbuild": "7.1",
     "verification_type": "pre",
     "log_dir": "manual/manim/kernel-logs-ocp/RHEL-237147_pre_20261114-210242",
-    "start_time": "2026-11-14T21:02:42.339663",
-    "status": "failed",
+    "start_time": "2026-11-21T16:00:22.637889",
+    "status": "skipped",
     "end_time": "2026-11-14T21:35:08.629602",
     "return_code": 1,
-    "reason": "Command exited with return code 1",
+    "reason": "Baseline not met: no_compose_kernel",
     "terminal_log": "data/terminal_output_RHEL-237147_pre.log",
-    "duration_seconds": 1946
+    "duration_seconds": 1946,
+    "baseline_datasource": "datasource://rhel8"
   },
   "RHEL-264086:pre": {
     "jira_id": "RHEL-264086",
@@ -2723,7 +2727,7 @@
     "jira_kernel": "5.14.0-741.1.1.7219_2811171106.el9_9.x86_64",
     "fix_version": "rhel-9.9.z",
     "verification_type": "pre",
-    "start_time": "2026-11-20T15:23:30.718224"
+    "start_time": "2026-11-21T16:00:22.636553"
   },
   "RHEL-299995:pre": {
     "jira_id": "RHEL-299995",
@@ -2755,9 +2759,9 @@
     "platform": "rhel-9",
     "rhbuild": "9.1",
     "verification_type": "pre",
-    "log_dir": "manual/manim/kernel-logs-ocp/RHEL-299994_pre_20261120-172002",
-    "start_time": "2026-11-20T17:20:02.885109",
-    "status": "failed",
+    "log_dir": "manual/manim/kernel-logs-ocp/RHEL-299994_pre_20261121-160058",
+    "start_time": "2026-11-21T16:00:58.307231",
+    "status": "running",
     "end_time": "2026-11-20T19:10:24.245649",
     "return_code": 1,
     "reason": "Command exited with return code 1",
@@ -2912,13 +2916,14 @@
     "rhbuild": "7.1",
     "verification_type": "pre",
     "log_dir": "manual/manim/kernel-logs-ocp/RHEL-300009_pre_20261121-094049",
-    "start_time": "2026-11-21T09:40:49.892067",
-    "status": "failed",
+    "start_time": "2026-11-21T16:00:22.635779",
+    "status": "skipped",
     "end_time": "2026-11-21T09:40:54.142974",
     "return_code": 1,
-    "reason": "Command exited with return code 1",
+    "reason": "Baseline not met: no_compose_kernel",
     "terminal_log": "data/terminal_output_RHEL-300009_pre.log",
-    "duration_seconds": 4
+    "duration_seconds": 4,
+    "baseline_datasource": "datasource://rhel8"
   },
   "RHEL-174764:pre": {
     "jira_id": "RHEL-174764",
@@ -2932,13 +2937,14 @@
     "rhbuild": "7.1",
     "verification_type": "pre",
     "log_dir": "manual/manim/kernel-logs-ocp/RHEL-174764_pre_20261121-094100",
-    "start_time": "2026-11-21T09:41:00.508573",
-    "status": "failed",
+    "start_time": "2026-11-21T16:00:22.635899",
+    "status": "skipped",
     "end_time": "2026-11-21T09:41:04.841747",
     "return_code": 1,
-    "reason": "Command exited with return code 1",
+    "reason": "Baseline not met: no_compose_kernel",
     "terminal_log": "data/terminal_output_RHEL-174764_pre.log",
-    "duration_seconds": 4
+    "duration_seconds": 4,
+    "baseline_datasource": "datasource://rhel8"
   },
   "RHEL-227189:pre": {
     "jira_id": "RHEL-227189",
@@ -2952,13 +2958,14 @@
     "rhbuild": "7.1",
     "verification_type": "pre",
     "log_dir": "manual/manim/kernel-logs-ocp/RHEL-227189_pre_20261121-094111",
-    "start_time": "2026-11-21T09:41:11.363953",
-    "status": "failed",
+    "start_time": "2026-11-21T16:00:22.636018",
+    "status": "skipped",
     "end_time": "2026-11-21T09:41:15.539517",
     "return_code": 1,
-    "reason": "Command exited with return code 1",
+    "reason": "Baseline not met: no_compose_kernel",
     "terminal_log": "data/terminal_output_RHEL-227189_pre.log",
-    "duration_seconds": 4
+    "duration_seconds": 4,
+    "baseline_datasource": "datasource://rhel8"
   },
   "RHEL-302649:pre": {
     "jira_id": "RHEL-302649",
@@ -3032,5 +3039,113 @@
     "log_dir": "manual/manim/kernel-logs-ocp/RHEL-227080_pre_20261121-153855",
     "start_time": "2026-11-21T15:38:55.516637",
     "status": "running"
+  },
+  "RHEL-227071:pre": {
+    "jira_id": "RHEL-227071",
+    "status": "skipped",
+    "reason": "Baseline not met: no_compose_kernel",
+    "inventory": "conf/inventory/ocpvirt-rhel-9.4.yaml",
+    "platform": "rhel-9",
+    "jira_kernel": "4.18.0-553.158.1.el8_10.10148_2797826368.x86_64",
+    "fix_version": "rhel-8.10.z",
+    "verification_type": "pre",
+    "baseline_datasource": "datasource://rhel8",
+    "start_time": "2026-11-21T16:00:22.636187"
+  },
+  "RHEL-227869:pre": {
+    "jira_id": "RHEL-227869",
+    "status": "skipped",
+    "reason": "Baseline not met: no_compose_kernel",
+    "inventory": "conf/inventory/ocpvirt-rhel-9.4.yaml",
+    "platform": "rhel-9",
+    "jira_kernel": "4.18.0-553.184.1.el8_10.10157_3033018557.x86_64",
+    "fix_version": "rhel-8.10.z",
+    "verification_type": "pre",
+    "baseline_datasource": "datasource://rhel8",
+    "start_time": "2026-11-21T16:00:22.636319"
+  },
+  "RHEL-242358:pre": {
+    "jira_id": "RHEL-242358",
+    "status": "skipped",
+    "reason": "Baseline not met: no_compose_kernel",
+    "inventory": "conf/inventory/ocpvirt-rhel-9.4.yaml",
+    "platform": "rhel-9",
+    "jira_kernel": "4.18.0-553.184.1.el8_10.10329_3040785294.x86_64",
+    "fix_version": "rhel-8.10.z",
+    "verification_type": "pre",
+    "baseline_datasource": "datasource://rhel8",
+    "start_time": "2026-11-21T16:00:22.636442"
+  },
+  "RHEL-236740:pre": {
+    "jira_id": "RHEL-236740",
+    "status": "skipped",
+    "reason": "Baseline not met: no_compose_kernel",
+    "inventory": "conf/inventory/ocpvirt-rhel-9.4.yaml",
+    "platform": "rhel-9",
+    "jira_kernel": "4.18.0-553.154.1.el8_10.10264_2750722824.x86_64",
+    "fix_version": "rhel-8.10.z",
+    "verification_type": "pre",
+    "baseline_datasource": "datasource://rhel8",
+    "start_time": "2026-11-21T16:00:22.636663"
+  },
+  "RHEL-263824:pre": {
+    "jira_id": "RHEL-263824",
+    "status": "skipped",
+    "reason": "Baseline not met: no_compose_kernel",
+    "inventory": "conf/inventory/ocpvirt-rhel-9.4.yaml",
+    "platform": "rhel-9",
+    "jira_kernel": "4.18.0-553.183.1.el8_10.11347_3022990575.x86_64",
+    "fix_version": "rhel-8.10.z",
+    "verification_type": "pre",
+    "baseline_datasource": "datasource://rhel8",
+    "start_time": "2026-11-21T16:00:22.636812"
+  },
+  "RHEL-295151:pre": {
+    "jira_id": "RHEL-295151",
+    "status": "skipped",
+    "reason": "Baseline not met: no_compose_kernel",
+    "inventory": "conf/inventory/ocpvirt-rhel-9.4.yaml",
+    "platform": "rhel-9",
+    "jira_kernel": "4.18.0-553.184.1.el8_10.11415_3038262542.x86_64",
+    "fix_version": "rhel-8.10.z",
+    "verification_type": "pre",
+    "baseline_datasource": "datasource://rhel8",
+    "start_time": "2026-11-21T16:00:22.636925"
+  },
+  "RHEL-295126:pre": {
+    "jira_id": "RHEL-295126",
+    "status": "skipped",
+    "reason": "Baseline not met: no_compose_kernel",
+    "inventory": "conf/inventory/ocpvirt-rhel-9.4.yaml",
+    "platform": "rhel-9",
+    "jira_kernel": "4.18.0-553.184.1.el8_10.11414_3038219448.x86_64",
+    "fix_version": "rhel-8.10.z",
+    "verification_type": "pre",
+    "baseline_datasource": "datasource://rhel8",
+    "start_time": "2026-11-21T16:00:22.637039"
+  },
+  "RHEL-264079:pre": {
+    "jira_id": "RHEL-264079",
+    "status": "skipped",
+    "reason": "Baseline not met: no_compose_kernel",
+    "inventory": "conf/inventory/ocpvirt-rhel-9.4.yaml",
+    "platform": "rhel-9",
+    "jira_kernel": "4.18.0-553.183.1.el8_10.11346_3023303804.x86_64",
+    "fix_version": "rhel-8.10.z",
+    "verification_type": "pre",
+    "baseline_datasource": "datasource://rhel8",
+    "start_time": "2026-11-21T16:00:22.637162"
+  },
+  "RHEL-271420:pre": {
+    "jira_id": "RHEL-271420",
+    "status": "skipped",
+    "reason": "Baseline not met: no_compose_kernel",
+    "inventory": "conf/inventory/ocpvirt-rhel-9.4.yaml",
+    "platform": "rhel-9",
+    "jira_kernel": "4.18.0-553.168.1.el8_10.10873_2887251220.x86_64",
+    "fix_version": "rhel-8.10.z",
+    "verification_type": "pre",
+    "baseline_datasource": "datasource://rhel8",
+    "start_time": "2026-11-21T16:00:22.637528"
   }
 }
