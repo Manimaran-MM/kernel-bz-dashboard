@@ -3185,5 +3185,20 @@
     "return_code": 0,
     "terminal_log": "data/terminal_output_RHEL-227074_pre.log",
     "duration_seconds": 5242
+  },
+  "RHEL-302572:pre": {
+    "jira_id": "RHEL-302572",
+    "command": "python3 run.py --instances-name 'mani-kernel-jira-RHEL-302572' --log-dir /app/data/logs/kernel-logs/RHEL-302572_pre --log-level 'DEBUG' --cloud 'ocpvirt' --rhbuild '9.1' --platform 'rhel-9' --global-conf 'conf/tentacle/cephfs/kernel-validation/kernel_verification.yaml' --suite 'suites/tentacle/cephfs/kernel-validation/kernel_pre_verification.yaml' --osp-cred 'ocpvirt/osp-cred-ocpvirt.yaml' --custom-config ocpvirt_namespace='rdu3_ceph_jenkins' --custom-config ocpvirt_profile='o1.large' --custom-config ocpvirt_secure_boot='false' --custom-config pre='https://s3.amazonaws.com/arr-cki-prod-trusted-artifacts/trusted-artifacts/3036339152/publish_x86_64/17804164987/artifacts/repo/5.14.0-762.9144_3036338738.el9.x86_64/' --build 'stable' --skip-sos-report --store --inventory 'conf/inventory/ocpvirt-rhel-9.0.yaml'",
+    "baseline_image": "datasource://ceph-jenkins--runtime-int/rhel90-iso-custom",
+    "rhosd_kernel": "datasource://ceph-jenkins--runtime-int/rhel90-iso-custom",
+    "jira_kernel": "5.14.0-762.9144_3036338738.el9.x86_64",
+    "fix_version": "rhel-9.10",
+    "inventory": "conf/inventory/ocpvirt-rhel-9.0.yaml",
+    "platform": "rhel-9",
+    "rhbuild": "9.1",
+    "verification_type": "pre",
+    "log_dir": "manual/manim/kernel-logs-ocp/RHEL-302572_pre_20261122-024145",
+    "start_time": "2026-11-22T02:41:45.618350",
+    "status": "running"
   }
 }
