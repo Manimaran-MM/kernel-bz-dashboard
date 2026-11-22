@@ -3396,5 +3396,20 @@
     "return_code": 0,
     "terminal_log": "data/terminal_output_RHEL-231965_pre.log",
     "duration_seconds": 5171
+  },
+  "RHEL-227877:pre": {
+    "jira_id": "RHEL-227877",
+    "command": "python3 run.py --instances-name 'mani-kernel-jira-RHEL-227877' --log-dir /app/data/logs/kernel-logs/RHEL-227877_pre --log-level 'DEBUG' --cloud 'ocpvirt' --rhbuild '9.2' --platform 'rhel-10' --global-conf 'conf/tentacle/cephfs/kernel-validation/kernel_verification.yaml' --suite 'suites/tentacle/cephfs/kernel-validation/kernel_pre_verification.yaml' --osp-cred 'ocpvirt/osp-cred-ocpvirt.yaml' --inventory 'conf/inventory/ocpvirt-rhel-10-latest.yaml' --custom-config ocpvirt_namespace='rdu3_ceph_jenkins' --custom-config ocpvirt_profile='o1.large' --custom-config ocpvirt_secure_boot='false' --custom-config pre='https://artifacts.internal.cki-project.org/arr-cki-prod-internal-artifacts/internal-artifacts/3033075497/publish_x86_64/17780403113/artifacts/repo/6.12.0-264.15.1.3042_3033075123.el10_3.x86_64/' --build 'z0' --skip-sos-report --store",
+    "baseline_image": "datasource://rhel10",
+    "rhosd_kernel": "datasource://rhel10",
+    "jira_kernel": "6.12.0-264.15.1.3042_3033075123.el10_3.x86_64",
+    "fix_version": "rhel-10.3.z",
+    "inventory": "conf/inventory/ocpvirt-rhel-10-latest.yaml",
+    "platform": "rhel-10",
+    "rhbuild": "9.2",
+    "verification_type": "pre",
+    "log_dir": "manual/manim/kernel-logs-ocp/RHEL-227877_pre_20261122-183946",
+    "start_time": "2026-11-22T18:39:46.046360",
+    "status": "running"
   }
 }
