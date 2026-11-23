@@ -3042,7 +3042,7 @@
   },
   "RHEL-227071:pre": {
     "jira_id": "RHEL-227071",
-    "status": "running",
+    "status": "failed",
     "reason": "Command exited with return code 1",
     "inventory": "conf/inventory/ocpvirt-rhel-9.4.yaml",
     "platform": "rhel-9",
@@ -3056,10 +3056,10 @@
     "rhosd_kernel": "datasource://rhel810",
     "rhbuild": "7.1",
     "log_dir": "manual/manim/kernel-logs-ocp/RHEL-227071_pre_20261123-221140",
-    "end_time": "2026-11-23T12:42:31.897324",
+    "end_time": "2026-11-23T23:01:51.220571",
     "return_code": 1,
     "terminal_log": "data/terminal_output_RHEL-227071_pre.log",
-    "duration_seconds": 2681
+    "duration_seconds": 3010
   },
   "RHEL-227869:pre": {
     "jira_id": "RHEL-227869",
