@@ -3126,8 +3126,8 @@
   },
   "RHEL-263824:pre": {
     "jira_id": "RHEL-263824",
-    "status": "running",
-    "reason": "Baseline not met: no_compose_kernel",
+    "status": "failed",
+    "reason": "Command exited with return code 1",
     "inventory": "conf/inventory/ocpvirt-rhel-9.4.yaml",
     "platform": "rhel-9",
     "jira_kernel": "4.18.0-553.183.1.el8_10.11347_3022990575.x86_64",
@@ -3139,7 +3139,11 @@
     "baseline_image": "datasource://rhel810",
     "rhosd_kernel": "datasource://rhel810",
     "rhbuild": "7.1",
-    "log_dir": "manual/manim/kernel-logs-ocp/RHEL-263824_pre_20261124-021823"
+    "log_dir": "manual/manim/kernel-logs-ocp/RHEL-263824_pre_20261124-021823",
+    "end_time": "2026-11-24T03:27:22.651274",
+    "return_code": 1,
+    "terminal_log": "data/terminal_output_RHEL-263824_pre.log",
+    "duration_seconds": 4139
   },
   "RHEL-295151:pre": {
     "jira_id": "RHEL-295151",
