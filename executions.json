@@ -309,7 +309,7 @@
     "rhbuild": "5.3",
     "verification_type": "pre",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-142088_pre",
-    "start_time": "2026-11-21T15:56:19.395427",
+    "start_time": "2026-11-24T05:08:55.221749",
     "status": "excluded",
     "end_time": "2026-06-04T18:29:11.724770",
     "return_code": 1,
@@ -506,7 +506,7 @@
     "rhbuild": "5.3",
     "verification_type": "pre",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-143869_pre",
-    "start_time": "2026-11-21T15:56:19.395433",
+    "start_time": "2026-11-24T05:08:55.221756",
     "status": "excluded",
     "end_time": "2026-06-04T20:13:16.647027",
     "return_code": 1,
@@ -2243,7 +2243,7 @@
     "platform": "rhel-10",
     "fix_version": "rhel-10.4",
     "verification_type": "pre",
-    "start_time": "2026-11-21T16:00:22.635617",
+    "start_time": "2026-11-24T05:17:46.377973",
     "baseline_datasource": "datasource://rhel10"
   },
   "RHEL-237888:post": {
@@ -2727,7 +2727,7 @@
     "jira_kernel": "5.14.0-741.1.1.7219_2811171106.el9_9.x86_64",
     "fix_version": "rhel-9.9.z",
     "verification_type": "pre",
-    "start_time": "2026-11-21T16:00:22.636553"
+    "start_time": "2026-11-24T05:17:46.378252"
   },
   "RHEL-299995:pre": {
     "jira_id": "RHEL-299995",
@@ -2759,9 +2759,9 @@
     "platform": "rhel-9",
     "rhbuild": "9.1",
     "verification_type": "pre",
-    "log_dir": "manual/manim/kernel-logs-ocp/RHEL-299994_pre_20261121-160058",
-    "start_time": "2026-11-21T16:00:58.307231",
-    "status": "failed",
+    "log_dir": "manual/manim/kernel-logs-ocp/RHEL-299994_pre_20261124-051815",
+    "start_time": "2026-11-24T05:18:15.927775",
+    "status": "running",
     "end_time": "2026-11-21T16:20:49.108148",
     "return_code": 1,
     "reason": "Command exited with return code 1",
