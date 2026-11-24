@@ -3601,12 +3601,12 @@
     "verification_type": "pre",
     "log_dir": "manual/manim/kernel-logs-ocp/RHEL-242355_pre_20261124-173229",
     "start_time": "2026-11-24T17:32:29.834149",
-    "status": "running",
-    "end_time": "2026-11-23T05:44:59.256285",
+    "status": "failed",
+    "end_time": "2026-11-24T17:35:35.116677",
     "return_code": 1,
     "reason": "Command exited with return code 1",
     "terminal_log": "data/terminal_output_RHEL-242355_pre.log",
-    "duration_seconds": 1690
+    "duration_seconds": 185
   },
   "RHEL-242350:pre": {
     "jira_id": "RHEL-242350",
