@@ -3295,12 +3295,11 @@
     "verification_type": "pre",
     "log_dir": "manual/manim/kernel-logs-ocp/RHEL-226275_pre_20261124-112525",
     "start_time": "2026-11-24T11:25:25.797289",
-    "status": "running",
-    "end_time": "2026-11-22T07:30:38.714789",
-    "return_code": 1,
-    "reason": "Command exited with return code 1",
+    "status": "success",
+    "end_time": "2026-11-24T12:54:12.100469",
+    "return_code": 0,
     "terminal_log": "data/terminal_output_RHEL-226275_pre.log",
-    "duration_seconds": 6862
+    "duration_seconds": 5326
   },
   "RHEL-226274:pre": {
     "jira_id": "RHEL-226274",
