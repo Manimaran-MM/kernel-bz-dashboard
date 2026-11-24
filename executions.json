@@ -3147,7 +3147,7 @@
   },
   "RHEL-295151:pre": {
     "jira_id": "RHEL-295151",
-    "status": "skipped",
+    "status": "running",
     "reason": "Baseline not met: no_compose_kernel",
     "inventory": "conf/inventory/ocpvirt-rhel-9.4.yaml",
     "platform": "rhel-9",
@@ -3155,7 +3155,12 @@
     "fix_version": "rhel-8.10.z",
     "verification_type": "pre",
     "baseline_datasource": "datasource://rhel8",
-    "start_time": "2026-11-21T16:00:22.636925"
+    "start_time": "2026-11-24T03:29:11.187770",
+    "command": "python3 run.py --instances-name 'mani-kernel-jira-RHEL-295151' --log-dir /app/data/logs/kernel-logs/RHEL-295151_pre --log-level 'DEBUG' --cloud 'ocpvirt' --rhbuild '7.1' --platform 'rhel-9' --global-conf 'conf/tentacle/cephfs/kernel-validation/kernel_verification_rhel8_client.yaml' --suite 'suites/tentacle/cephfs/kernel-validation/kernel_pre_verification_rhel8_client.yaml' --osp-cred 'ocpvirt/osp-cred-ocpvirt.yaml' --inventory 'conf/inventory/ocpvirt-rhel-9.4.yaml' --custom-config ocpvirt_namespace='rdu3_ceph_jenkins' --custom-config ocpvirt_profile='o1.large' --custom-config ocpvirt_secure_boot='false' --custom-config pre='https://artifacts.internal.cki-project.org/arr-cki-prod-internal-artifacts/internal-artifacts/3038262795/publish_x86_64/17819991768/artifacts/repo/4.18.0-553.184.1.el8_10.11415_3038262542.x86_64/' --build 'stable' --skip-sos-report --store",
+    "baseline_image": "datasource://rhel810",
+    "rhosd_kernel": "datasource://rhel810",
+    "rhbuild": "7.1",
+    "log_dir": "manual/manim/kernel-logs-ocp/RHEL-295151_pre_20261124-032911"
   },
   "RHEL-295126:pre": {
     "jira_id": "RHEL-295126",
