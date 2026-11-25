@@ -3815,6 +3815,11 @@
     "verification_type": "post",
     "log_dir": "manual/manim/kernel-logs-ocp/RHEL-299772_post_20261125-102454",
     "start_time": "2026-11-25T10:24:54.553798",
-    "status": "running"
+    "status": "failed",
+    "end_time": "2026-11-25T14:11:53.613474",
+    "return_code": 1,
+    "reason": "Command exited with return code 1",
+    "terminal_log": "data/terminal_output_RHEL-299772_post.log",
+    "duration_seconds": 13619
   }
 }
