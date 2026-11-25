@@ -3718,6 +3718,11 @@
     "verification_type": "pre",
     "log_dir": "manual/manim/kernel-logs-ocp/RHEL-270690_pre_20261124-234233",
     "start_time": "2026-11-24T23:42:33.856567",
-    "status": "running"
+    "status": "failed",
+    "end_time": "2026-11-25T01:17:24.422459",
+    "return_code": 1,
+    "reason": "Command exited with return code 1",
+    "terminal_log": "data/terminal_output_RHEL-270690_pre.log",
+    "duration_seconds": 5691
   }
 }
