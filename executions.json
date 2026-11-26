@@ -309,7 +309,7 @@
     "rhbuild": "5.3",
     "verification_type": "pre",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-142088_pre",
-    "start_time": "2026-11-24T05:08:55.221749",
+    "start_time": "2026-11-26T13:01:27.403370",
     "status": "excluded",
     "end_time": "2026-06-04T18:29:11.724770",
     "return_code": 1,
@@ -506,7 +506,7 @@
     "rhbuild": "5.3",
     "verification_type": "pre",
     "log_dir": "/ceph/ceph-qe-logs/manim/logs/kernel-logs/RHEL-143869_pre",
-    "start_time": "2026-11-24T05:08:55.221756",
+    "start_time": "2026-11-26T13:01:27.403375",
     "status": "excluded",
     "end_time": "2026-06-04T20:13:16.647027",
     "return_code": 1,
@@ -2243,7 +2243,7 @@
     "platform": "rhel-10",
     "fix_version": "rhel-10.4",
     "verification_type": "pre",
-    "start_time": "2026-11-24T05:17:46.377973",
+    "start_time": "2026-11-26T13:03:57.718251",
     "baseline_datasource": "datasource://rhel10"
   },
   "RHEL-237888:post": {
@@ -2726,7 +2726,7 @@
     "jira_kernel": "5.14.0-741.1.1.7219_2811171106.el9_9.x86_64",
     "fix_version": "rhel-9.9.z",
     "verification_type": "pre",
-    "start_time": "2026-11-24T05:17:46.378252"
+    "start_time": "2026-11-26T13:03:57.718523"
   },
   "RHEL-299995:pre": {
     "jira_id": "RHEL-299995",
@@ -2901,7 +2901,7 @@
   },
   "RHEL-300009:pre": {
     "jira_id": "RHEL-300009",
-    "command": "python3 run.py --instances-name 'mani-kernel-jira-RHEL-300009' --log-dir /app/data/logs/kernel-logs/RHEL-300009_pre --log-level 'DEBUG' --cloud 'ocpvirt' --rhbuild '7.1' --platform 'rhel-9' --global-conf 'conf/tentacle/cephfs/kernel-validation/kernel_verification_rhel8_client.yaml' --suite 'suites/tentacle/cephfs/kernel-validation/kernel_pre_verification_rhel8_client.yaml' --osp-cred 'ocpvirt/osp-cred-ocpvirt.yaml' --inventory 'conf/inventory/ocpvirt-rhel-9.4.yaml' --custom-config ocpvirt_namespace='rdu3_ceph_jenkins' --custom-config ocpvirt_profile='o1.large' --custom-config ocpvirt_secure_boot='false' --custom-config pre='https://artifacts.internal.cki-project.org/arr-cki-prod-internal-artifacts/internal-artifacts/3023528395/publish_x86_64/17707446585/artifacts/repo/4.18.0-553.183.1.el8_10.11352_3023527913.x86_64/' --build 'stable' --skip-sos-report --store",
+    "command": "python3 run.py --instances-name 'mani-kernel-jira-RHEL-300009' --log-dir /app/data/logs/kernel-logs/RHEL-300009_pre --log-level 'DEBUG' --cloud 'ocpvirt' --rhbuild '7.1' --platform 'rhel-9' --global-conf 'conf/tentacle/cephfs/kernel-validation/kernel_verification_rhel8_client.yaml' --suite 'suites/tentacle/cephfs/kernel-validation/kernel_pre_verification_rhel8_client.yaml' --osp-cred 'ocpvirt/osp-cred-ocpvirt.yaml' --inventory 'conf/inventory/ocpvirt-rhel-9.4.yaml' --custom-config ocpvirt_namespace='rdu3_ceph_jenkins' --custom-config ocpvirt_profile='o1.large' --custom-config ocpvirt_secure_boot='false' --custom-config pre='https://artifacts.internal.cki-project.org/arr-cki-prod-internal-artifacts/internal-artifacts/3023528395/publish_x86_64/17707446585/artifacts/repo/4.18.0-553.183.1.el8_10.11352_3023527913.x86_64/' --build 'z9' --skip-sos-report --store",
     "baseline_image": "datasource://rhel810",
     "rhosd_kernel": "datasource://rhel810",
     "jira_kernel": "4.18.0-553.183.1.el8_10.11352_3023527913.x86_64",
@@ -2910,9 +2910,9 @@
     "platform": "rhel-9",
     "rhbuild": "7.1",
     "verification_type": "pre",
-    "log_dir": "manual/manim/kernel-logs-ocp/RHEL-300009_pre_20261124-064803",
-    "start_time": "2026-11-24T06:48:03.630440",
-    "status": "failed",
+    "log_dir": "manual/manim/kernel-logs-ocp/RHEL-300009_pre_20261126-130433",
+    "start_time": "2026-11-26T13:04:33.713045",
+    "status": "running",
     "end_time": "2026-11-24T07:53:53.931753",
     "return_code": 1,
     "reason": "Command exited with return code 1",
