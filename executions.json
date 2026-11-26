@@ -2954,12 +2954,12 @@
     "verification_type": "pre",
     "log_dir": "manual/manim/kernel-logs-ocp/RHEL-227189_pre_20261126-153501",
     "start_time": "2026-11-26T15:35:01.773105",
-    "status": "running",
-    "end_time": "2026-11-24T10:26:03.937619",
+    "status": "failed",
+    "end_time": "2026-11-26T15:54:51.946138",
     "return_code": 1,
     "reason": "Command exited with return code 1",
     "terminal_log": "data/terminal_output_RHEL-227189_pre.log",
-    "duration_seconds": 4489,
+    "duration_seconds": 1190,
     "baseline_datasource": "datasource://rhel8"
   },
   "RHEL-302649:pre": {
