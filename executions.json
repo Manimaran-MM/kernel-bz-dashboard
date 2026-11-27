@@ -3793,12 +3793,12 @@
     "verification_type": "pre",
     "log_dir": "manual/manim/kernel-logs-ocp/RHEL-236746_pre_20261127-035421",
     "start_time": "2026-11-27T03:54:21.915165",
-    "status": "running",
-    "end_time": "2026-11-25T08:30:37.892551",
+    "status": "failed",
+    "end_time": "2026-11-27T04:31:37.976661",
     "return_code": 1,
     "reason": "Command exited with return code 1",
     "terminal_log": "data/terminal_output_RHEL-236746_pre.log",
-    "duration_seconds": 2846
+    "duration_seconds": 2236
   },
   "RHEL-299772:post": {
     "jira_id": "RHEL-299772",
