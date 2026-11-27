@@ -3813,12 +3813,11 @@
     "verification_type": "post",
     "log_dir": "manual/manim/kernel-logs-ocp/RHEL-299772_post_20261127-050848",
     "start_time": "2026-11-27T05:08:48.063088",
-    "status": "running",
-    "end_time": "2026-11-25T14:11:53.613474",
-    "return_code": 1,
-    "reason": "Command exited with return code 1",
+    "status": "success",
+    "end_time": "2026-11-27T06:36:30.159964",
+    "return_code": 0,
     "terminal_log": "data/terminal_output_RHEL-299772_post.log",
-    "duration_seconds": 13619
+    "duration_seconds": 5262
   },
   "RHEL-263841:pre": {
     "jira_id": "RHEL-263841",
