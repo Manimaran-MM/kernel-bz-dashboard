@@ -4002,12 +4002,12 @@
     "verification_type": "pre",
     "log_dir": "manual/manim/kernel-logs-ocp/RHEL-295152_pre_20261127-103218",
     "start_time": "2026-11-27T10:32:18.623128",
-    "status": "running",
-    "end_time": "2026-11-26T11:44:05.909561",
+    "status": "failed",
+    "end_time": "2026-11-27T13:52:40.550810",
     "return_code": 1,
     "reason": "Command exited with return code 1",
     "terminal_log": "data/terminal_output_RHEL-295152_pre.log",
-    "duration_seconds": 5764
+    "duration_seconds": 12022
   },
   "RHEL-312753:pre": {
     "jira_id": "RHEL-312753",
