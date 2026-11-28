@@ -4449,5 +4449,20 @@
     "reason": "Command exited with return code 1",
     "terminal_log": "data/terminal_output_RHEL-271434_pre.log",
     "duration_seconds": 1736
+  },
+  "RHEL-271432:pre": {
+    "jira_id": "RHEL-271432",
+    "command": "python3 run.py --instances-name 'mani-kernel-jira-RHEL-271432' --log-dir /app/data/logs/kernel-logs/RHEL-271432_pre --log-level 'DEBUG' --cloud 'ocpvirt' --rhbuild '9.2' --platform 'rhel-10' --global-conf 'conf/tentacle/cephfs/kernel-validation/kernel_verification.yaml' --suite 'suites/tentacle/cephfs/kernel-validation/kernel_pre_verification.yaml' --osp-cred 'ocpvirt/osp-cred-ocpvirt.yaml' --inventory 'conf/inventory/ocpvirt-rhel-10-latest.yaml' --custom-config ocpvirt_namespace='rdu3_ceph_jenkins' --custom-config ocpvirt_profile='o1.large' --custom-config ocpvirt_secure_boot='false' --custom-config pvc_batch_size='20' --custom-config vm_batch_size='6' --custom-config pre='https://artifacts.internal.cki-project.org/arr-cki-prod-internal-artifacts/internal-artifacts/2887253409/publish_x86_64/16764595030/artifacts/repo/6.12.0-264.7.1.2441_2887253353.el10_3.x86_64/' --build 'z0' --skip-sos-report --store",
+    "baseline_image": "datasource://ceph-jenkins--runtime-int/rhel103-iso-custom",
+    "rhosd_kernel": "datasource://ceph-jenkins--runtime-int/rhel103-iso-custom",
+    "jira_kernel": "6.12.0-264.7.1.2441_2887253353.el10_3.x86_64",
+    "fix_version": "rhel-10.3.z",
+    "inventory": "conf/inventory/ocpvirt-rhel-10-latest.yaml",
+    "platform": "rhel-10",
+    "rhbuild": "9.2",
+    "verification_type": "pre",
+    "log_dir": "manual/manim/kernel-logs-ocp/RHEL-271432_pre_20261128-140326",
+    "start_time": "2026-11-28T14:03:26.443058",
+    "status": "running"
   }
 }
