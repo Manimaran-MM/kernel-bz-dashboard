@@ -4346,6 +4346,10 @@
     "verification_type": "post",
     "log_dir": "manual/manim/kernel-logs-ocp/RHEL-292766_post_20261128-084408",
     "start_time": "2026-11-28T08:44:08.789666",
-    "status": "running"
+    "status": "success",
+    "end_time": "2026-11-28T10:10:27.109026",
+    "return_code": 0,
+    "terminal_log": "data/terminal_output_RHEL-292766_post.log",
+    "duration_seconds": 5178
   }
 }
