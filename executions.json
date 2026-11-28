@@ -4200,6 +4200,11 @@
     "verification_type": "pre",
     "log_dir": "manual/manim/kernel-logs-ocp/RHEL-264103_pre_20261128-004655",
     "start_time": "2026-11-28T00:46:55.148039",
-    "status": "running"
+    "status": "failed",
+    "end_time": "2026-11-28T01:50:21.705026",
+    "return_code": 1,
+    "reason": "Command exited with return code 1",
+    "terminal_log": "data/terminal_output_RHEL-264103_pre.log",
+    "duration_seconds": 3807
   }
 }
