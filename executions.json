@@ -4332,5 +4332,20 @@
     "return_code": 0,
     "terminal_log": "data/terminal_output_RHEL-292771_post.log",
     "duration_seconds": 5003
+  },
+  "RHEL-292766:post": {
+    "jira_id": "RHEL-292766",
+    "command": "python3 run.py --instances-name 'mani-kernel-jira-RHEL-292766' --log-dir /app/data/logs/kernel-logs/RHEL-292766_post --log-level 'DEBUG' --cloud 'ocpvirt' --rhbuild '9.1' --platform 'rhel-9' --global-conf 'conf/tentacle/cephfs/kernel-validation/kernel_verification.yaml' --suite 'suites/tentacle/cephfs/kernel-validation/kernel_post_verification.yaml' --osp-cred 'ocpvirt/osp-cred-ocpvirt.yaml' --custom-config ocpvirt_namespace='rdu3_ceph_jenkins' --custom-config ocpvirt_profile='o1.xlarge' --custom-config ocpvirt_secure_boot='false' --custom-config pvc_batch_size='20' --custom-config vm_batch_size='6' --custom-config post='https://download2.engineering.redhat.com/brewroot/vol/rhel-9/packages/kernel/5.14.0/687.70.1.el9_8/x86_64/kernel-5.14.0-687.70.1.el9_8.x86_64.rpm' --build 'stable' --skip-sos-report --store --inventory 'conf/inventory/ocpvirt-rhel-9.8.yaml'",
+    "baseline_image": "datasource://ceph-jenkins--runtime-int/rhel98-iso-custom",
+    "rhosd_kernel": "datasource://ceph-jenkins--runtime-int/rhel98-iso-custom",
+    "jira_kernel": "5.14.0-687.65.1.8586_3018927269.el9_8.x86_64",
+    "fix_version": "rhel-9.8.z",
+    "inventory": "conf/inventory/ocpvirt-rhel-9.8.yaml",
+    "platform": "rhel-9",
+    "rhbuild": "9.1",
+    "verification_type": "post",
+    "log_dir": "manual/manim/kernel-logs-ocp/RHEL-292766_post_20261128-084408",
+    "start_time": "2026-11-28T08:44:08.789666",
+    "status": "running"
   }
 }
