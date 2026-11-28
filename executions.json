@@ -4293,5 +4293,20 @@
     "reason": "Command exited with return code 1",
     "terminal_log": "data/terminal_output_RHEL-264070_pre.log",
     "duration_seconds": 289
+  },
+  "RHEL-292783:post": {
+    "jira_id": "RHEL-292783",
+    "command": "python3 run.py --instances-name 'mani-kernel-jira-RHEL-292783' --log-dir /app/data/logs/kernel-logs/RHEL-292783_post --log-level 'DEBUG' --cloud 'ocpvirt' --rhbuild '9.2' --platform 'rhel-10' --global-conf 'conf/tentacle/cephfs/kernel-validation/kernel_verification.yaml' --suite 'suites/tentacle/cephfs/kernel-validation/kernel_post_verification.yaml' --osp-cred 'ocpvirt/osp-cred-ocpvirt.yaml' --inventory 'conf/inventory/ocpvirt-rhel-10-latest.yaml' --custom-config ocpvirt_namespace='rdu3_ceph_jenkins' --custom-config ocpvirt_profile='o1.xlarge' --custom-config ocpvirt_secure_boot='false' --custom-config pvc_batch_size='20' --custom-config vm_batch_size='6' --custom-config post='https://download2.engineering.redhat.com/brewroot/vol/rhel-10/packages/kernel/6.12.0/211.77.1.el10_2/x86_64/kernel-6.12.0-211.77.1.el10_2.x86_64.rpm' --build 'z0' --skip-sos-report --store",
+    "baseline_image": "datasource://ceph-jenkins--runtime-int/rhel102-iso-custom",
+    "rhosd_kernel": "datasource://ceph-jenkins--runtime-int/rhel102-iso-custom",
+    "jira_kernel": "6.12.0-211.73.1.2903_3018498208.el10_2.x86_64",
+    "fix_version": "rhel-10.2.z",
+    "inventory": "conf/inventory/ocpvirt-rhel-10-latest.yaml",
+    "platform": "rhel-10",
+    "rhbuild": "9.2",
+    "verification_type": "post",
+    "log_dir": "manual/manim/kernel-logs-ocp/RHEL-292783_post_20261128-070329",
+    "start_time": "2026-11-28T07:03:29.001043",
+    "status": "running"
   }
 }
