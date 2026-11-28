@@ -2509,12 +2509,12 @@
     "verification_type": "pre",
     "log_dir": "manual/manim/kernel-logs-ocp/RHEL-292778_pre_20261128-071328",
     "start_time": "2026-11-28T07:13:28.625449",
-    "status": "running",
-    "end_time": "2026-11-14T18:54:02.497510",
+    "status": "failed",
+    "end_time": "2026-11-28T07:18:17.505346",
     "return_code": 1,
-    "reason": "Baseline not met: no_compose_kernel",
+    "reason": "Command exited with return code 1",
     "terminal_log": "data/terminal_output_RHEL-292778_pre.log",
-    "duration_seconds": 5,
+    "duration_seconds": 289,
     "baseline_datasource": "datasource://rhel8"
   },
   "RHEL-292771:pre": {
