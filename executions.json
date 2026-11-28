@@ -2549,12 +2549,12 @@
     "verification_type": "pre",
     "log_dir": "manual/manim/kernel-logs-ocp/RHEL-292763_pre_20261128-101204",
     "start_time": "2026-11-28T10:12:04.356150",
-    "status": "running",
-    "end_time": "2026-11-14T19:13:17.685536",
+    "status": "failed",
+    "end_time": "2026-11-28T10:15:55.046167",
     "return_code": 1,
     "reason": "Command exited with return code 1",
     "terminal_log": "data/terminal_output_RHEL-292763_pre.log",
-    "duration_seconds": 1149
+    "duration_seconds": 231
   },
   "RHEL-240891:pre": {
     "jira_id": "RHEL-240891",
